@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://www.kgpz.de"
+    xmlns="https://www.kgpz.de"
+    elementFormDefault="qualified">
+
+    <xs:element name="orte" type="orte" />
+
+    <xs:complexType name="orte"></xs:complexType>
+</xs:schema>
