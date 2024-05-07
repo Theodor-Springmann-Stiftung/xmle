@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <orte xmlns="https://www.kgpz.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xsi:schemaLocation="https://www.kgpz.de Schemata/KGPZ.xsd"></orte>
+    xsi:schemaLocation="https://www.kgpz.de XSD_Schemata/KGPZ.xsd">
+    <ort index="1">
+        <name>Hallo</name>
+        <geonames></geonames>
+    </ort>
+    <ort index="2">
+        <name>Hans2</name>
+    </ort>
+</orte>

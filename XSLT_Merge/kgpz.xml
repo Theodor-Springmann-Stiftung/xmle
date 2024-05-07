@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<kgpz xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="../kategorien.xml" />
+    <xi:include href="../orte.xml" />
+    <xi:include href="../akteure.xml" />
+    <xi:include href="../stuecke.xml" />
+    <xi:include href="../werke.xml" />
+    <xi:include href="../beitraege.xml" />
+</kgpz>

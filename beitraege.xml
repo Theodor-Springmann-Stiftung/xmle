@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
 <beitraege xmlns="https://www.kgpz.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xsi:schemaLocation="https://www.kgpz.de Schemata/KGPZ.xsd"></beitraege>
+    xsi:schemaLocation="https://www.kgpz.de XSD_Schemata/KGPZ.xsd"></beitraege>

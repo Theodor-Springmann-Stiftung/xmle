@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <stuecke xmlns="https://www.kgpz.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xsi:schemaLocation="https://www.kgpz.de Schemata/KGPZ.xsd"></stuecke>
+    xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
+    <stueck nummer="1">
+        <datum>1970-01-01</datum>
+        <von>1</von>
+        <bis>4</bis>
+        <beilagen>3</beilagen>
+        <anmerkung>Anmerkung</anmerkung>
+    </stueck>
+</stuecke>

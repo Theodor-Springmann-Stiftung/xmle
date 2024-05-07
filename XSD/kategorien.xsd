@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://www.kgpz.de"
+    xmlns="https://www.kgpz.de"
+    xmlns:kgpz="https://www.kgpz.de" 
+    elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="common.xsd"/>
+
+    <xsd:element name="kategorien">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="kategorie" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="name" type="NonEmptyString" minOccurs="1" maxOccurs="1" nillable="false" />
+                        </xsd:sequence>
+                        <xsd:attribute name="index" type="xsd:integer" use="required" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+        <xsd:unique name="uniqueIndexKategorien">
+            <xsd:selector xpath="kgpz:kategorie" />
+            <xsd:field xpath="@index" />
+        </xsd:unique>
+    </xsd:element>
+
+</xsd:schema>

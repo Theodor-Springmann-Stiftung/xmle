@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://www.kgpz.de"
+    xmlns="https://www.kgpz.de"
+    xmlns:kgpz="https://www.kgpz.de" 
+    elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="common.xsd" />
+
+    <xsd:element name="akteure">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="akteur" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="name" type="NonEmptyString" nillable="false" maxOccurs="unbounded" />
+                            <xsd:element name="sortiername" minOccurs="1" maxOccurs="1" type="kgpz:NonEmptyString" nillable="false" />
+                            <xsd:element name="lebensdaten" minOccurs="0" maxOccurs="1" type="kgpz:NonEmptyString" />
+                            <!-- TODO: URI FOR GND -->
+                            <xsd:element name="gnd" minOccurs="0" maxOccurs="1" type="xsd:anyURI" nillable="false" />
+                            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="id" type="xsd:string" use="required" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+        <xsd:unique name="uniqueIndexAkteur">
+            <xsd:selector xpath="kgpz:akteur" />
+            <xsd:field xpath="@id" />
+        </xsd:unique>
+        <xsd:unique name="uniqueGND">
+            <xsd:selector xpath="kgpz:akteur" />
+            <xsd:field xpath="kgpz:gnd" />
+        </xsd:unique>
+    </xsd:element>
+</xsd:schema>

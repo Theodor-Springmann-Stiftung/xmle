@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://www.kgpz.de"
+    xmlns="https://www.kgpz.de"
+    xmlns:kgpz="https://www.kgpz.de" 
+    elementFormDefault="qualified">
+
+    <xsd:element name="beitraege" type="beitraege" />
+
+    <xsd:complexType name="beitraege"></xsd:complexType>
+</xsd:schema>
