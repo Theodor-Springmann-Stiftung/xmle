@@ -12,11 +12,11 @@
             <xsd:sequence>
                 <xsd:element name="werk" maxOccurs="unbounded">
                     <xsd:complexType>
-                        <xsd:choice>
+                        <xsd:sequence>
                             <xsd:element name="daten" type="kgpz:citation" minOccurs="0" maxOccurs="1" />
                             <xsd:element name="zitation" type="NonEmptyString" minOccurs="0" maxOccurs="1" />
                             <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
-                        </xsd:choice>
+                        </xsd:sequence>
                         <xsd:attribute name="id" type="xsd:string" use="required" />
                     </xsd:complexType>
                 </xsd:element>

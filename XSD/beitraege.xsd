@@ -2,10 +2,112 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://www.kgpz.de"
     xmlns="https://www.kgpz.de"
-    xmlns:kgpz="https://www.kgpz.de" 
+    xmlns:kgpz="https://www.kgpz.de"
     elementFormDefault="qualified">
 
-    <xsd:element name="beitraege" type="beitraege" />
+    <xsd:include schemaLocation="common.xsd"></xsd:include>
+    <xsd:element name="beitraege">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="beitrag" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:choice>
+                            <xsd:sequence>
+                                <xsd:choice>
+                                    <xsd:element name="stueck" type="kgpz:StueckBeitragRef"
+                                        minOccurs="1" maxOccurs="unbounded" />
+                                    <xsd:element name="beilage" type="kgpz:StueckBeilageRef"
+                                        minOccurs="1" maxOccurs="unbounded" />
+                                    <xsd:sequence>
+                                        <xsd:element name="stueck" type="kgpz:StueckBeitragRef"
+                                            minOccurs="1" maxOccurs="unbounded" />
+                                        <xsd:element name="beilage" type="kgpz:StueckBeilageRef"
+                                            minOccurs="1" maxOccurs="unbounded" />
+                                    </xsd:sequence>
+                                </xsd:choice>
+                                <xsd:element name="titel" type="kgpz:NonEmptyString" minOccurs="1"
+                                    maxOccurs="1" />
+                                <xsd:element name="incipit" type="kgpz:NonEmptyString" minOccurs="0"
+                                    maxOccurs="1" />
+                                <xsd:group ref="kgpz:BeitragInfo" />
+                            </xsd:sequence>
+                            <xsd:sequence>
+                                <xsd:choice>
+                                    <xsd:element name="stueck" type="kgpz:StueckBeitragRef"
+                                        minOccurs="1" maxOccurs="unbounded" />
+                                    <xsd:element name="beilage" type="kgpz:StueckBeilageRef"
+                                        minOccurs="1" maxOccurs="unbounded" />
+                                    <xsd:sequence>
+                                        <xsd:element name="stueck" type="kgpz:StueckBeitragRef"
+                                            minOccurs="1" maxOccurs="unbounded" />
+                                        <xsd:element name="beilage" type="kgpz:StueckBeilageRef"
+                                            minOccurs="1" maxOccurs="unbounded" />
+                                    </xsd:sequence>
+                                </xsd:choice>
+                                <xsd:element name="incipit" type="kgpz:NonEmptyString" minOccurs="1"
+                                    maxOccurs="1" />
+                                <xsd:group ref="kgpz:BeitragInfo" />
+                            </xsd:sequence>
+                        </xsd:choice>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
 
-    <xsd:complexType name="beitraege"></xsd:complexType>
+
+    <xsd:complexType name="StueckBeitragRef">
+        <xsd:attribute name="jahr" type="kgpz:Year"
+            use="required" />
+        <xsd:attribute name="nr" type="xsd:positiveInteger"
+            use="required" />
+        <xsd:attribute name="von" type="xsd:positiveInteger"
+            use="required" />
+        <xsd:attribute name="bis" type="xsd:positiveInteger"
+            use="optional" />
+    </xsd:complexType>
+
+    <xsd:complexType name="StueckBeilageRef">
+        <xsd:attribute name="jahr" type="kgpz:Year"
+            use="required" />
+        <xsd:attribute name="nr" type="xsd:positiveInteger"
+            use="required" />
+        <xsd:attribute name="beilage" type="xsd:positiveInteger"
+            use="required" />
+        <xsd:attribute name="von" type="xsd:positiveInteger"
+            use="optional" />
+        <xsd:attribute name="bis" type="xsd:positiveInteger"
+            use="optional" />
+    </xsd:complexType>
+
+    <xsd:group name="BeitragInfo">
+        <xsd:sequence>
+            <xsd:element name="datum" type="xsd:date" minOccurs="1"
+                maxOccurs="1" />
+            <xsd:element name="ort" minOccurs="0" maxOccurs="1">
+                <xsd:complexType>
+                    <xsd:attribute name="ref" type="kgpz:NonEmptyString"
+                        use="required" />
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="autorschaft" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:attribute name="ref" type="kgpz:NonEmptyString"
+                        use="required" />
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="kategorie" minOccurs="1" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:attribute name="ref" type="kgpz:NonEmptyString"
+                        use="required" />
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="rezensiert" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:attribute name="ref" type="kgpz:NonEmptyString"
+                        use="required" />
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:group>
 </xsd:schema>

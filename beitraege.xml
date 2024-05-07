@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
 <beitraege xmlns="https://www.kgpz.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://www.kgpz.de XSD_Schemata/KGPZ.xsd"></beitraege>
+    xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
+    <beitrag>
+        <stueck jahr="1752" nr="23" von="2" />
+        <stueck jahr="1799" nr="12" von="5" />
+        <titel>Was</titel>
+        <datum>1762-12-12</datum>
+        <ort ref="ort" />
+        <autorschaft ref="autor" />
+        <kategorie ref="kategorie" />
+    </beitrag>
+</beitraege>
