@@ -108,6 +108,8 @@
                         use="required" />
                 </xsd:complexType>
             </xsd:element>
+            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0"
+                maxOccurs="unbounded" />
         </xsd:sequence>
     </xsd:group>
 </xsd:schema>
