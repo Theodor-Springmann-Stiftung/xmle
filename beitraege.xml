@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<beitraege xmlns="https://www.kgpz.de"
+<beitraege xmlns="https://www.koenigberger-zeitungen.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
+    xsi:schemaLocation="https://www.koenigberger-zeitungen.de XSD/KGPZ.xsd">
     <beitrag>
         <!-- Notwendig sind: 
             - <beilage jahr="" nummer="" zaehlung=""> oder <stueck jahr="" nr="" von="">
