@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<kategorien xmlns="https://www.koenigberger-zeitungen.de"
+<kategorien xmlns="https://www.koenigsberger-zeitungen.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://www.koenigberger-zeitungen.de XSD/KGPZ.xsd">
+    xsi:schemaLocation="https://www.koenigsberger-zeitungen.de XSD/KGPZ.xsd">
     <kategorie id="1">
         <!-- Attribut @id + <name> müssen vorhanden sein -->
         <name>Rezension</name>
