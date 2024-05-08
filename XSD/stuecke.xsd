@@ -13,12 +13,14 @@
                 <xsd:element name="stueck" maxOccurs="unbounded">
                     <xsd:complexType>
                         <xsd:sequence>
+                            <xsd:element name="nummer" type="xsd:positiveInteger" minOccurs="1" maxOccurs="1" />
+
                             <!-- Lässt sich aus Nummer + Jahr berechnen. -->
-                            <xsd:element name="datum" type="xsd:date" minOccurs="1" maxOccurs="1" nillable="false" />
+                            <xsd:element name="datum" type="xsd:date" minOccurs="1" maxOccurs="1" />
 
                             <!-- Von + bis lässt sich aus Nummer berechnen (n-1) * 4 + 1 bzw. (n-1) * 4 + 1 -->
-                            <xsd:element name="von" type="xsd:positiveInteger" minOccurs="0" maxOccurs="1"/>
-                            <xsd:element name="bis" type="xsd:positiveInteger" minOccurs="0" maxOccurs="1" />
+                            <xsd:element name="von" type="xsd:positiveInteger" minOccurs="1" maxOccurs="1"/>
+                            <xsd:element name="bis" type="xsd:positiveInteger" minOccurs="1" maxOccurs="1" />
 
                             <!-- Kann von Stücke abgeleitet werden -->
                             <xsd:element name="beilagen" type="xsd:nonNegativeInteger" default="0" minOccurs="0" maxOccurs="1"/>
@@ -27,14 +29,13 @@
                             <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
                             <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
                         </xsd:sequence>
-                        <xsd:attribute name="nummer" type="xsd:integer" use="required" />
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
         </xsd:complexType>
         <xsd:unique name="uniqueNummer">
-            <xsd:selector xpath="stueck" />
-            <xsd:field xpath="@nummer" />
+            <xsd:selector xpath="kgpz:stueck" />
+            <xsd:field xpath="kgpz:datum" />
         </xsd:unique>
     </xsd:element>
 </xsd:schema>
