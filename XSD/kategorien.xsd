@@ -15,14 +15,14 @@
                         <xsd:sequence>
                             <xsd:element name="name" type="NonEmptyString" minOccurs="1" maxOccurs="1" nillable="false" />
                         </xsd:sequence>
-                        <xsd:attribute name="index" type="xsd:integer" use="required" />
+                        <xsd:attribute name="id" type="xsd:integer" use="required" />
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
         </xsd:complexType>
         <xsd:unique name="uniqueIndexKategorien">
             <xsd:selector xpath="kgpz:kategorie" />
-            <xsd:field xpath="@index" />
+            <xsd:field xpath="@id" />
         </xsd:unique>
     </xsd:element>
 

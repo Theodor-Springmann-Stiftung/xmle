@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <kategorien xmlns="https://www.kgpz.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://www.kgpz.de XSD_Schemata/KGPZ.xsd">
-<kategorie index="1">
-    <name>Wissenschaft</name>
-</kategorie>
-<kategorie index="2">
-    <name>Technik</name>
-</kategorie>
-<kategorie index="3">
-    <name>Politik</name>
-</kategorie>
+    xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
+    <kategorie id="1">
+        <name>Wissenschaft</name>
+    </kategorie>
+    <kategorie id="2">
+        <name>Technik</name>
+    </kategorie>
+    <kategorie id="3">
+        <name>Politik</name>
+    </kategorie>
 </kategorien>

@@ -2,12 +2,11 @@
 <akteure xmlns="https://www.kgpz.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
-    <akteur index="1">
+    <akteur id="1">
         <name>Albert Einstein</name>
         <name>Ainshutain, A.</name>
         <sortiername>Einstein, Albert</sortiername>
-        <geburtsdatum>1879-03-14</geburtsdatum>
-        <sterbedatum>1955-04-18</sterbedatum>
+        <lebensdaten>1955-04-18</lebensdaten>
         <gnd>https://d-nb.info/gnd/118529579</gnd>
     </akteur>
 </akteure>
