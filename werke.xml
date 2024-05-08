@@ -3,10 +3,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
     <werk id="1">
-        
+        <!-- mehrere oder auch gar keine Autoren sind erlaubt-->
+        <autor ref="23"/>
+        <autor ref="12">Die Zurordnung eines Werkes zu einem Autor kann charakterisiert werden (Quellen oä.)</autor>
+        <!-- jahr zur Filterung und Sortierung notwendig -->
+        <jahr>1783</jahr>
+        <zitation>Unstrukturierte bibliographische Zitation</zitation>
+        <url>https://URL.de</url>
+        <!-- meherere Anmerkungen und Vermerke sind erlaubt -->
+        <anmerkung>Eine Anmerkung</anmerkung>
+        <vermerk>Ein Bearbeitungsvermerk</vermerk>
+        <vermerk>Ein Bearbeitungsvermerk</vermerk>
     </werk>
     <werk id="2">
+        <!-- minimaler Eintrag; das Attribut "id" und <zitation> müssen vorhanden sein. -->
         <zitation>Hans</zitation>
-        <anmerkung>Anmerkungen</anmerkung>
     </werk>
 </werke>

@@ -3,10 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
     <stueck nummer="1">
+        <!-- Alle Tags und Attribute außer Anmerkung und Vermerk sind Pflicht -->
         <datum>1970-01-01</datum>
         <von>1</von>
         <bis>4</bis>
         <beilagen>3</beilagen>
         <anmerkung>Anmerkung</anmerkung>
+        <vermerk>Bearbeitungsvermerk</vermerk>
     </stueck>
 </stuecke>

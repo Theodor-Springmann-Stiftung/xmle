@@ -2,11 +2,17 @@
 <akteure xmlns="https://www.kgpz.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
-    <akteur id="1">
+    <akteur id="einstein">
+        <!-- Pflicht sind: das Attribut id, <name> und <sortiername> -->
         <name>Albert Einstein</name>
+        <!-- Für mehrere mögliche Namen gibt sind mehrere Namen-Tags möglich: -->
         <name>Ainshutain, A.</name>
         <sortiername>Einstein, Albert</sortiername>
-        <lebensdaten>1955-04-18</lebensdaten>
+        <lebensdaten>1889-1951</lebensdaten>
+        <!-- Die GND-Angabe muss einmalig im Dokument sein -->
         <gnd>https://d-nb.info/gnd/118529579</gnd>
+        <anmerkung>Dies ist eine Anmerkung</anmerkung>
+        <anmerkung>Es kann auch mehrere Anmerkungen geben!</anmerkung>
+        <vermerk>Das ist ein Bearbeitungvermerk!</vermerk>
     </akteur>
 </akteure>

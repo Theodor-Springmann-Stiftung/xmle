@@ -19,6 +19,7 @@
                             <!-- TODO: URI FOR GND -->
                             <xsd:element name="gnd" minOccurs="0" maxOccurs="1" type="xsd:anyURI" nillable="false" />
                             <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
+                            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
                         </xsd:sequence>
                         <xsd:attribute name="id" type="xsd:string" use="required" />
                     </xsd:complexType>

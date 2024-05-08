@@ -3,12 +3,45 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
     <beitrag>
-        <stueck jahr="1752" nr="23" von="2" />
+        <!-- Notwendig sind: 
+            - <beilage jahr="" nummer="" zaehlung=""> oder <stueck jahr="" nr="" von="">
+            - <kategorie ref="">
+            -->
+        <!-- Beispiel für einen Beitrag in zwei Stücken -->
+        <!-- Das bis-Attribut ist erforderlich falls der Beitrag Seitengrenzen überschreitet -->
+        <stueck jahr="1752" nr="23" von="2" bis="3" />
         <stueck jahr="1799" nr="12" von="5" />
         <titel>Was</titel>
+        <!-- Ein Beitrag kann einen Titel, ein Incipit, beides oder nichts davon haben: -->
+        <incipit>Incipit</incipit>
+        <datum>1762-12-12</datum>
+        <ort ref="ort">Die Zuordung eines Beitrags zu einem Ort kann annotiert werden</ort>
+        <autor ref="autor">Die Zuordnung eines Beitrags zu einem Autor kann annotiert werden</autor>
+        <!-- oder auch nicht: -->
+        <autor ref="einstein"/>
+        <!-- Es kann mehrere Orte, Kategorien oder Autoren geben: -->
+        <kategorie ref="kategorie" />
+        <kategorie ref="kategorie2" />
+        <rezensiert ref="werk">Auch die Zuordnung zu einer Werkrezension kann annotiert werden</rezensiert>
+        <anmerkung>Anmerkung</anmerkung>
+        <vermerk>Bearbeitungsvermerk</vermerk>
+    </beitrag>
+    <beitrag>
+        <!-- Beispiel für einen Beitrag in einer Beilage -->
+        <beilage jahr="1762" nr="12" beilage="1" />
+        <titel>Was</titel>
+        <incipit>Incipit</incipit>
         <datum>1762-12-12</datum>
         <ort ref="ort" />
-        <autorschaft ref="autor" />
+        <!-- alle Zuordnungen können mit unsicher="true" ausgezeichnet werden, es sich um eine Vermutung handelt -->
+        <!-- Standardwert ist unsicher="false" -->
+        <autor ref="autor" unsicher="true">Vgl. Herder Brief 1234</autor>
+        <autor ref="weitererautor" />
         <kategorie ref="kategorie" />
+    </beitrag>
+    <beitrag>
+        <!-- Minimales Beispiel: -->
+        <stueck jahr="1752" nr="23" von="2" bis="3" />
+        <kategorie ref="währungskurse"></kategorie>
     </beitrag>
 </beitraege>

@@ -3,12 +3,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
     <kategorie id="1">
-        <name>Wissenschaft</name>
+        <!-- Attribut @id + <name> müssen vorhanden sein -->
+        <name>Rezension</name>
+        <anmerkung>Anmerkung</anmerkung>
+        <vermerk>Bearbeitungsvermerk</vermerk>
     </kategorie>
     <kategorie id="2">
-        <name>Technik</name>
+        <name>Weckselkurse</name>
     </kategorie>
     <kategorie id="3">
-        <name>Politik</name>
+        <name>Tanzanleitung</name>
+        <anmerkung>Ja</anmerkung>
+        <vermerk>Darf nicht leer sein</vermerk>
     </kategorie>
 </kategorien>

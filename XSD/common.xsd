@@ -13,8 +13,17 @@
 
   <xsd:simpleType name="Year">
     <xsd:restriction base="xsd:unsignedInt">
-      <xsd:minInclusive value="0"/>
-      <xsd:maxInclusive value="2024"/>
+      <xsd:minInclusive value="0" />
+      <xsd:maxInclusive value="2024" />
     </xsd:restriction>
   </xsd:simpleType>
+
+  <xsd:complexType name="ref">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="ref" use="required" type="kgpz:NonEmptyString" />
+        <xsd:attribute name="unsicher" use="optional" default="false" type="xsd:boolean" />
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
 </xsd:schema>

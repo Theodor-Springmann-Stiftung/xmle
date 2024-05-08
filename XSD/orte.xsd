@@ -17,6 +17,7 @@
                             <!-- TODO: geonames URI regex -->
                             <xsd:element name="geonames" type="xsd:anyURI" minOccurs="0" maxOccurs="1" nillable="false" />
                             <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
+                            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
                         </xsd:sequence>
                         <xsd:attribute name="id" type="xsd:string" use="required" />
                     </xsd:complexType>

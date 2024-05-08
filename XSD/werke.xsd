@@ -13,9 +13,11 @@
                 <xsd:element name="werk" maxOccurs="unbounded">
                     <xsd:complexType>
                         <xsd:sequence>
-                            <xsd:element name="daten" type="kgpz:citation" minOccurs="0" maxOccurs="1" />
-                            <xsd:element name="zitation" type="NonEmptyString" minOccurs="0" maxOccurs="1" />
+                            <xsd:group ref="citation" />
+                            <xsd:element name="zitation" type="NonEmptyString" minOccurs="1" maxOccurs="1" />
+                            <xsd:element name="url" type="xsd:anyURI" minOccurs="0" maxOccurs="unbounded"></xsd:element>
                             <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
+                            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
                         </xsd:sequence>
                         <xsd:attribute name="id" type="xsd:string" use="required" />
                     </xsd:complexType>
@@ -28,18 +30,14 @@
         </xsd:unique>
     </xsd:element>
 
-    <xsd:complexType name="citation">
+    <xsd:group name="citation">
         <xsd:sequence>
-            <xsd:element name="autorschaft" type="NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
-            <xsd:element name="herausgabe" type="NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="druck" type="NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="verlag" type="NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="vertrieb" type="NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="ausgabe" type="NonEmptyString" minOccurs="0" maxOccurs="1" />
-            <xsd:element name="titel" type="NonEmptyString" minOccurs="0" maxOccurs="1" />
-            <xsd:element name="titelannotation" type="NonEmptyString" minOccurs="0" maxOccurs="1" />
-            <xsd:element name="jahr" type="NonEmptyString" minOccurs="0" maxOccurs="1" />
-            <xsd:element name="ort" type="NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="autor" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="herausgabe" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="druck" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="verlag" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="vertrieb" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="jahr" type="kgpz:Year" minOccurs="0" maxOccurs="1" />
         </xsd:sequence>
-    </xsd:complexType>
+    </xsd:group>
 </xsd:schema>

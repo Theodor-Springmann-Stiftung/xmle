@@ -24,7 +24,8 @@
                             <xsd:element name="beilagen" type="xsd:nonNegativeInteger" default="0" minOccurs="0" maxOccurs="1"/>
 
                             <!-- Vielleicht nötig -->
-                            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" />
+                            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
+                            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded"/>
                         </xsd:sequence>
                         <xsd:attribute name="nummer" type="xsd:integer" use="required" />
                     </xsd:complexType>

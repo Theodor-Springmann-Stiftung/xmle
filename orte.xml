@@ -3,8 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.kgpz.de XSD/KGPZ.xsd">
     <ort id="1">
-        <name>Hallo</name>
-        <geonames></geonames>
+        <!-- das Attribut id + <name> müssen vorhanden sein -->
+        <name>Königsberg</name>
+        <!-- geonames muss im Dokument eindeutig sein -->
+        <geonames>https://www.geonames.org/554234</geonames>
+        <anmerkung>Anmerkung</anmerkung>
+        <vermerk>Vermerk</vermerk>
     </ort>
     <ort id="2">
         <name>Hans2</name>
