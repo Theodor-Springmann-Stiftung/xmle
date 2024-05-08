@@ -5,7 +5,7 @@
     <beitrag>
         <stueck jahr="1752" nr="23" von="2" />
         <stueck jahr="1799" nr="12" von="5" />
-        <titel>Was</titel>
+        <titel></titel>
         <datum>1762-12-12</datum>
         <ort ref="ort" />
         <autorschaft ref="autor" />
