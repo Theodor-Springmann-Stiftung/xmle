@@ -12,7 +12,7 @@
         <stueck jahr="1752" nr="23" von="2" bis="3" />
         <stueck jahr="1799" nr="12" von="5" />
         <titel>Was</titel>
-        <!-- Ein Beitrag kann einen Titel, ein Incipit, beides oder nichts davon haben: -->
+        <!-- Ein Beitrag kann einen Titel, ein Incipit, beides oder nichts von beiden haben: -->
         <incipit>Incipit</incipit>
         <datum>1762-12-12</datum>
         <ort ref="ort">Die Zuordung eines Beitrags zu einem Ort kann annotiert werden</ort>
