@@ -4,16 +4,44 @@
     xsi:schemaLocation="https://www.koenigsberger-zeitungen.de XSD/KGPZ.xsd">
     <kategorie id="1">
         <!-- Attribut @id + <name> müssen vorhanden sein -->
-        <name>Rezension</name>
+        <name>Beispiel</name>
         <anmerkung>Anmerkung</anmerkung>
         <vermerk>Bearbeitungsvermerk</vermerk>
     </kategorie>
-    <kategorie id="2">
+
+    <kategorie id="ineigenersache">
+        <name>In eigener Sache</name>
+        <vermerk>Programmatische Vorwörter, Neuausrichtungen etc.</vermerk>
+    </kategorie>
+	
+	<kategorie id="panegyrik">
+        <name>Panegyrik</name>
+        <vermerk>Lobreden auf Friedrich II., Königsgeburtstag etc.</vermerk>
+    </kategorie>
+
+    <kategorie id="weltnachrichten">
+        <name>Weltnachrichten</name>
+    </kategorie>
+	
+    <kategorie id="wechselkurse">
         <name>Weckselkurse</name>
+		<anmerkung>„Wechsel-Cours &#x26; Species“</anmerkung>
     </kategorie>
-    <kategorie id="3">
-        <name>Tanzanleitung</name>
-        <anmerkung>Ja</anmerkung>
-        <vermerk>Darf nicht leer sein</vermerk>
+	
+	<kategorie id="avertissement">
+        <name>Avertissement</name>
+		<anmerkung>Werbeanzeigen für Bücher aus dem Kanterschen Buchladen</anmerkung>
     </kategorie>
+	
+	<kategorie id="rezension">
+        <name>Rezension</name>
+    </kategorie>
+	
+	<kategorie id="aufsatz">
+        <name>Aufsatz</name>
+		<vermerk>Benennung gefällt mir nicht; wie könnte mans sonst nennen, wenn ein Autor einen Originalbeitrag über ein Bestimmtes Thema bringt?</vermerk>
+    </kategorie>
+	
+	
+	
 </kategorien>

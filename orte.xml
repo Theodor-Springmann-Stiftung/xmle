@@ -4,13 +4,27 @@
     xsi:schemaLocation="https://www.koenigsberger-zeitungen.de XSD/KGPZ.xsd">
     <ort id="1">
         <!-- das Attribut id + <name> müssen vorhanden sein -->
-        <name>Königsberg</name>
+        <name>Beispiel</name>
         <!-- geonames muss im Dokument eindeutig sein -->
         <geonames>https://www.geonames.org/554234</geonames>
         <anmerkung>Anmerkung</anmerkung>
         <vermerk>Vermerk</vermerk>
     </ort>
-    <ort id="2">
-        <name>Hans2</name>
+	
+	<ort id="kgsb">
+        <name>Königsberg</name>
+        <geonames>https://www.geonames.org/554234</geonames>
     </ort>
+	
+	<ort id="koeln">
+        <name>Köln</name>
+        <geonames>https://www.geonames.org/2886242</geonames>
+    </ort>
+	
+	<ort id="stpetersburg">
+        <name>St. Petersburg</name>
+        <geonames>https://www.geonames.org/536203</geonames>
+    </ort>
+	
+	
 </orte>

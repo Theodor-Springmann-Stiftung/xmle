@@ -5,7 +5,7 @@
     <akteur id="einstein">
         <!-- Pflicht sind: das Attribut id, <name> und <sortiername> -->
         <name>Albert Einstein</name>
-        <!-- Für mehrere mögliche Namen gibt sind mehrere Namen-Tags möglich: -->
+        <!-- Für mehrere mögliche Namen sind mehrere Namen-Tags möglich: -->
         <name>Ainshutain, A.</name>
         <sortiername>Einstein, Albert</sortiername>
         <lebensdaten>1889-1951</lebensdaten>
@@ -15,4 +15,42 @@
         <anmerkung>Es kann auch mehrere Anmerkungen geben!</anmerkung>
         <vermerk>Das ist ein Bearbeitungvermerk!</vermerk>
     </akteur>
+
+    <akteur id="hamann">
+        <name>Johann Georg Hamann</name>
+        <sortiername>Hamann, Johann Georg</sortiername>
+        <lebensdaten>1730–1788</lebensdaten>
+        <gnd>https://d-nb.info/gnd/11854523X</gnd>
+    </akteur>
+	
+	<akteur id="kanter">
+        <name>Johann Jakob Kanter</name>
+        <sortiername>Kanter, Johann Jakob</sortiername>
+        <lebensdaten>1738–1786</lebensdaten>
+        <gnd>https://d-nb.info/gnd/103759972</gnd>
+    </akteur>
+	
+	<akteur id="lauson">
+        <name>Johann Friedrich Lauson</name>
+        <sortiername>Lauson, Johann Friedrich</sortiername>
+        <lebensdaten>1727–1783</lebensdaten>
+        <gnd>https://d-nb.info/gnd/101241054</gnd>
+    </akteur>
+	
+	<akteur id="philippi-ja">
+        <name>Johann Albrecht Philippi</name>
+        <sortiername>Philippi, Johann Albrecht</sortiername>
+        <lebensdaten>1721–1791</lebensdaten>
+        <gnd>https://d-nb.info/gnd/115741208</gnd>
+    </akteur>
+	
+	<akteur id="buesching">
+        <name>Anton Friedrich Büsching</name>
+        <sortiername>Büsching, Anton Friedrich</sortiername>
+        <lebensdaten>1724–1793</lebensdaten>
+        <gnd>https://d-nb.info/gnd/119003554</gnd>
+    </akteur>
+	
+	
+	
 </akteure>
