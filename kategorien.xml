@@ -5,6 +5,9 @@
     <kategorie id="1">
         <!-- Attribut @id + <name> müssen vorhanden sein -->
         <name>Beispiel</name>
+        <!-- <anmerkung> und <vermerk> sind optional -->
+        <!-- <anmerkung> ist öffentlich -->
+        <!-- <vermerk> ist intern -->
         <anmerkung>Anmerkung</anmerkung>
         <vermerk>Bearbeitungsvermerk</vermerk>
     </kategorie>
