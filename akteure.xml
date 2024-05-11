@@ -11,8 +11,9 @@
         <lebensdaten>1889-1951</lebensdaten>
         <!-- Die GND-Angabe muss, falls angegeben, einmalig sein -->
         <gnd>https://d-nb.info/gnd/118529579</gnd>
+        <!-- Anmerkungen sind öffentlich, Vermerke sind intern -->
         <anmerkung>Dies ist eine Anmerkung</anmerkung>
-        <anmerkung>Es kann auch mehrere Anmerkungen geben!</anmerkung>
+        <anmerkung>Dies ist eine zweite Anmerkung</anmerkung>
         <vermerk>Das ist ein Bearbeitungvermerk!</vermerk>
     </akteur>
 

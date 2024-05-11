@@ -66,8 +66,10 @@
             <xsd:element name="titel" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="1" />
             <xsd:element name="incipit" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="1" />
             <xsd:element name="rezensiert" minOccurs="0" maxOccurs="unbounded" type="kgpz:ref" />
-            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0"
+                maxOccurs="unbounded" />
+            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0"
+                maxOccurs="unbounded" />
         </xsd:sequence>
     </xsd:group>
 </xsd:schema>
