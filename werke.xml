@@ -7,7 +7,8 @@
         <autor ref="23" />
         <autor ref="12">Die Zurordnung eines Werkes zu einem Autor kann charakterisiert werden (Quellen oä.)</autor>
         <!-- Jahr zur Filterung und Sortierung notwendig -->
-        <jahr>1783</jahr>
+        <!-- Zugelasssen sind die Attribute when, from, to, notBefore, notAfter -->
+        <datum when="1783"/>
         <zitation>Unstrukturierte bibliographische Zitation</zitation>
         <url>https://URL.de</url>
         <!-- meherere Anmerkungen und Vermerke sind erlaubt -->

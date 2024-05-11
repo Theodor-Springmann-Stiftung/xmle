@@ -25,4 +25,70 @@
       </xsd:extension>
     </xsd:simpleContent>
   </xsd:complexType>
+  <xsd:attributeGroup name="dateattributes">
+    <xsd:attributeGroup ref="kgpz:when"/>
+    <xsd:attributeGroup ref="kgpz:notBefore"/>
+    <xsd:attributeGroup ref="kgpz:notAfter"/>
+    <xsd:attributeGroup ref="kgpz:from"/>
+    <xsd:attributeGroup ref="kgpz:to"/>
+  </xsd:attributeGroup>
+
+    <!-- This section is alsmost exacty as in TEI -->
+  <xsd:complexType name="date">
+    <xsd:annotation>
+      <xsd:documentation>(date) contains a date in any format. [3.6.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.4. Dates]</xsd:documentation>
+    </xsd:annotation>
+    <xsd:attributeGroup ref="kgpz:dateattributes"/>
+  </xsd:complexType>
+
+  <xsd:attributeGroup name="when">
+    <xsd:attribute name="when">
+      <xsd:annotation>
+        <xsd:documentation>supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</xsd:documentation>
+      </xsd:annotation>
+      <xsd:simpleType>
+        <xsd:union memberTypes="xsd:date xsd:gYear xsd:gMonth xsd:gDay xsd:gYearMonth xsd:gMonthDay xsd:time xsd:dateTime"/>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="notBefore">
+    <xsd:attribute name="notBefore">
+      <xsd:annotation>
+        <xsd:documentation>specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.</xsd:documentation>
+      </xsd:annotation>
+      <xsd:simpleType>
+        <xsd:union memberTypes="xsd:date xsd:gYear xsd:gMonth xsd:gDay xsd:gYearMonth xsd:gMonthDay xsd:time xsd:dateTime"/>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="notAfter">
+    <xsd:attribute name="notAfter">
+      <xsd:annotation>
+        <xsd:documentation>specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.</xsd:documentation>
+      </xsd:annotation>
+      <xsd:simpleType>
+        <xsd:union memberTypes="xsd:date xsd:gYear xsd:gMonth xsd:gDay xsd:gYearMonth xsd:gMonthDay xsd:time xsd:dateTime"/>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="from">
+    <xsd:attribute name="from">
+      <xsd:annotation>
+        <xsd:documentation>indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.</xsd:documentation>
+      </xsd:annotation>
+      <xsd:simpleType>
+        <xsd:union memberTypes="xsd:date xsd:gYear xsd:gMonth xsd:gDay xsd:gYearMonth xsd:gMonthDay xsd:time xsd:dateTime"/>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  <xsd:attributeGroup name="to">
+    <xsd:attribute name="to">
+      <xsd:annotation>
+        <xsd:documentation>indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.</xsd:documentation>
+      </xsd:annotation>
+      <xsd:simpleType>
+        <xsd:union memberTypes="xsd:date xsd:gYear xsd:gMonth xsd:gDay xsd:gYearMonth xsd:gMonthDay xsd:time xsd:dateTime"/>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:attributeGroup>
 </xsd:schema>

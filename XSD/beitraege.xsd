@@ -59,7 +59,7 @@
 
     <xsd:group name="BeitragInfo">
         <xsd:sequence>
-            <xsd:element name="datum" type="xsd:date" minOccurs="0" maxOccurs="unbounded" />
+            <xsd:element name="datum" type="kgpz:date" minOccurs="0" maxOccurs="unbounded" />
             <xsd:element name="ort" minOccurs="0" maxOccurs="unbounded" type="kgpz:ref" />
             <xsd:element name="kategorie" minOccurs="1" maxOccurs="unbounded" type="kgpz:ref" />
             <xsd:element name="autor" minOccurs="0" maxOccurs="unbounded" type="kgpz:ref" />

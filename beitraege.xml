@@ -11,7 +11,8 @@
         <!-- Das bis-Attribut ist erforderlich falls der Beitrag Seitengrenzen überschreitet -->
         <stueck jahr="1752" nr="23" von="2" bis="3" />
         <stueck jahr="1799" nr="12" von="5" />
-        <datum>1762-12-12</datum>
+        <!-- Zugelasssen sind die Attribute when, from, to, notBefore, notAfter -->
+        <datum when="1762-12-12"></datum>
         <ort ref="ort">Die Zuordung eines Beitrags zu einem Ort kann annotiert werden</ort>
         <!-- Es kann mehrere Orte, Kategorien oder Autoren geben: -->
         <kategorie ref="kategorie" />
@@ -29,7 +30,7 @@
     <beitrag>
         <!-- Beispiel für einen Beitrag in einer Beilage -->
         <beilage jahr="1762" nr="12" beilage="1" />
-        <datum>1762-12-12</datum>
+        <datum when="1762-12-12"></datum>
         <ort ref="ort" />
         <kategorie ref="kategorie" />
         <!-- alle Zuordnungen können mit unsicher="true" ausgezeichnet werden, es sich um eine
@@ -48,7 +49,7 @@
 
     <beitrag>
         <stueck jahr="1764" nr="1" von="1" bis="2" />
-        <datum>1764-02-03</datum>
+        <datum when="1764-02-03"/>
         <ort ref="kgsb" />
         <kategorie ref="ineigenersache" />
         <autor ref="hamann" />
@@ -58,29 +59,29 @@
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="2" bis="3" />
-        <datum>1764-02-03</datum>
+        <datum when="1764-02-03"></datum>
         <kategorie ref="panegyrik" />
         <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger Akademie zu dessen Geburtstag</anmerkung>
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="3" bis="4" />
-        <datum>1764-02-03</datum>
+        <datum when="1764-02-03"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="4" />
-        <datum>1764-02-03</datum>
+        <datum when="1764-02-03"></datum>
         <kategorie ref="avertissement" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="4" />
-        <datum>1764-02-03</datum>
+        <datum when="1764-02-03"></datum>
         <kategorie ref="wechselkurse" />
     </beitrag>
 
     <beitrag>
         <stueck jahr="1764" nr="2" von="5" bis="6" />
-        <datum>1764-02-06</datum>
+        <datum when="1764-02-06"></datum>
         <ort ref="koeln" />
         <kategorie ref="rezension" />
         <autor ref="lauson" />
@@ -88,7 +89,7 @@
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="6" bis="7" />
-        <datum>1764-02-06</datum>
+        <datum when="1764-02-06"></datum>
         <ort ref="stpetersburg" />
         <kategorie ref="rezension" />
         <autor ref="lindner-jg" />
@@ -96,18 +97,18 @@
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="7" bis="8" />
-        <datum>1764-02-06</datum>
+        <datum when="1764-02-06"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="8" />
-        <datum>1764-02-06</datum>
+        <datum when="1764-02-06"></datum>
         <kategorie ref="avertissement" />
     </beitrag>
 
     <beitrag>
         <stueck jahr="1764" nr="3" von="9" bis="11" />
-        <datum>1764-02-10</datum>
+        <datum when="1764-02-10"></datum>
         <ort ref="kgsb" />
         <kategorie ref="aufsatz" />
         <autor ref="hamann">vgl. ZH II, 235</autor>
@@ -115,17 +116,17 @@
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="3" von="11" bis="12" />
-        <datum>1764-02-10</datum>
+        <datum when="1764-02-10"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="3" von="12" />
-        <datum>1764-02-10</datum>
+        <datum when="1764-02-10"></datum>
         <kategorie ref="avertissement" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="3" von="12" />
-        <datum>1764-02-10</datum>
+        <datum when="1764-02-10"></datum>
         <kategorie ref="wechselkurse" />
     </beitrag>
 

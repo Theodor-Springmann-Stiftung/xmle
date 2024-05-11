@@ -48,7 +48,7 @@
             <xsd:element name="druck" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
             <xsd:element name="verlag" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
             <xsd:element name="vertrieb" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="jahr" type="kgpz:Year" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="datum" type="kgpz:date" minOccurs="0" maxOccurs="1" />
         </xsd:sequence>
     </xsd:group>
 </xsd:schema>
