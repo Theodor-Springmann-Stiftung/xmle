@@ -11,44 +11,124 @@
         <xsd:complexType>
             <xsd:sequence>
                 <xsd:element name="werk" maxOccurs="unbounded">
+                    <xsd:annotation>
+                        <xsd:documentation>Ein Werk im Werkeverzeichnis Pflicht: @id,
+                            &lt;zitation&gt;.</xsd:documentation>
+                    </xsd:annotation>
                     <xsd:complexType>
                         <xsd:sequence>
                             <xsd:group ref="citation" />
                             <xsd:element name="zitation" type="kgpz:NonEmptyString" minOccurs="1"
-                                maxOccurs="1" />
+                                maxOccurs="1">
+                                <xsd:annotation>
+                                    <xsd:documentation>Pflicht: Unstrukturierte Zitation des Werkes.</xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:element>
+
                             <xsd:element name="url" minOccurs="0" maxOccurs="unbounded">
+                                <xsd:annotation>
+                                    <xsd:documentation>Optional: URLs zum Werk.</xsd:documentation>
+                                </xsd:annotation>
                                 <xsd:complexType>
                                     <xsd:simpleContent>
                                         <xsd:extension base="kgpz:NonEmptyString">
-                                            <xsd:attribute name="address" type="xsd:anyURI" />
+                                            <xsd:attribute name="address" type="xsd:anyURI">
+                                                <xsd:annotation>
+                                                    <xsd:documentation>Pflicht: Die URL zum Werk.</xsd:documentation>
+                                                </xsd:annotation>
+                                            </xsd:attribute>
+                                            <xsd:attribute name="type" type="kgpz:NonEmptyString"
+                                                use="optional" default="Digitalisat">
+                                                <xsd:annotation>
+                                                    <xsd:documentation>Optional: Der Typ der
+                                                        Resource. Default: Digitalisat</xsd:documentation>
+                                                </xsd:annotation>
+                                            </xsd:attribute>
                                         </xsd:extension>
                                     </xsd:simpleContent>
                                 </xsd:complexType>
                             </xsd:element>
+
                             <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0"
-                                maxOccurs="unbounded" />
+                                maxOccurs="unbounded">
+                                <xsd:annotation>
+                                    <xsd:documentation>Optional: Eine Anmerkung zum Werk.
+                                        Öffentlich.</xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:element>
+
                             <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0"
-                                maxOccurs="unbounded" />
+                                maxOccurs="unbounded">
+                                <xsd:annotation>
+                                    <xsd:documentation>Optional: Ein Vermerk zum Werk. Intern.</xsd:documentation>
+                                </xsd:annotation>
+                            </xsd:element>
                         </xsd:sequence>
-                        <xsd:attribute name="id" type="xsd:string" use="required" />
+                        <xsd:attribute name="id" type="xsd:string" use="required">
+                            <xsd:annotation>
+                                <xsd:documentation>Pflicht: Eindeutige ID des Werkes.</xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:attribute>
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
         </xsd:complexType>
         <xsd:unique name="uniqueId">
+            <xsd:annotation>
+                <xsd:documentation>Pflicht: Jedes Werk hat eine eindeutige ID.</xsd:documentation>
+            </xsd:annotation>
+
             <xsd:selector xpath="kgpz:werk" />
             <xsd:field xpath="@id" />
         </xsd:unique>
     </xsd:element>
 
     <xsd:group name="citation">
+        <xsd:annotation>
+            <xsd:documentation>Daten zu Uhrheber und Datum eines Werkes.</xsd:documentation>
+        </xsd:annotation>
         <xsd:sequence>
-            <xsd:element name="autor" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="herausgabe" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="druck" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="verlag" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="vertrieb" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
-            <xsd:element name="datum" type="kgpz:date" minOccurs="0" maxOccurs="1" />
+            <xsd:element name="autor" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation>Verweist auf eine Person oder Körperschaft, die das Werk
+                        verfasst hat.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element name="herausgabe" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation>Verweist auf eine Person oder Körperschaft, die das Werk
+                        herausgegeben hat.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element name="druck" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation>Verweist auf eine Person oder Körperschaft, die das Werk
+                        gedruckt hat.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element name="verlag" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation>Verweist auf eine Person oder Körperschaft, die das Werk
+                        verlegt hat.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element name="vertrieb" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation>Verweist auf eine Person oder Körperschaft, die das Werk
+                        vertrieben hat.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
+
+            <xsd:element name="datum" type="kgpz:date" minOccurs="0" maxOccurs="1">
+                <xsd:annotation>
+                    <xsd:documentation>Das Datum, an dem das Werk veröffentlicht wurde, zur
+                        Sortierung der Werke.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:element>
         </xsd:sequence>
     </xsd:group>
 </xsd:schema>
