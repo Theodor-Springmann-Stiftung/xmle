@@ -14,10 +14,21 @@
                     <xsd:complexType>
                         <xsd:sequence>
                             <xsd:group ref="citation" />
-                            <xsd:element name="zitation" type="NonEmptyString" minOccurs="1" maxOccurs="1" />
-                            <xsd:element name="url" type="xsd:anyURI" minOccurs="0" maxOccurs="unbounded"></xsd:element>
-                            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
-                            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0" maxOccurs="unbounded" />
+                            <xsd:element name="zitation" type="kgpz:NonEmptyString" minOccurs="1"
+                                maxOccurs="1" />
+                            <xsd:element name="url" minOccurs="0" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="kgpz:NonEmptyString">
+                                            <xsd:attribute name="address" type="xsd:anyURI" />
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="anmerkung" type="kgpz:NonEmptyString" minOccurs="0"
+                                maxOccurs="unbounded" />
+                            <xsd:element name="vermerk" type="kgpz:NonEmptyString" minOccurs="0"
+                                maxOccurs="unbounded" />
                         </xsd:sequence>
                         <xsd:attribute name="id" type="xsd:string" use="required" />
                     </xsd:complexType>
@@ -32,7 +43,7 @@
 
     <xsd:group name="citation">
         <xsd:sequence>
-            <xsd:element name="autor" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="autor" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
             <xsd:element name="herausgabe" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
             <xsd:element name="druck" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />
             <xsd:element name="verlag" type="kgpz:ref" minOccurs="0" maxOccurs="unbounded" />

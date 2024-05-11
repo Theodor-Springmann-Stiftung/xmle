@@ -9,7 +9,7 @@
         <name>Ainshutain, A.</name>
         <sortiername>Einstein, Albert</sortiername>
         <lebensdaten>1889-1951</lebensdaten>
-        <!-- Die GND-Angabe muss einmalig im Dokument sein -->
+        <!-- Die GND-Angabe muss, falls angegeben, einmalig sein -->
         <gnd>https://d-nb.info/gnd/118529579</gnd>
         <anmerkung>Dies ist eine Anmerkung</anmerkung>
         <anmerkung>Es kann auch mehrere Anmerkungen geben!</anmerkung>
@@ -22,35 +22,34 @@
         <lebensdaten>1730–1788</lebensdaten>
         <gnd>https://d-nb.info/gnd/11854523X</gnd>
     </akteur>
-	
-	<akteur id="kanter">
+
+    <akteur id="kanter">
         <name>Johann Jakob Kanter</name>
         <sortiername>Kanter, Johann Jakob</sortiername>
         <lebensdaten>1738–1786</lebensdaten>
         <gnd>https://d-nb.info/gnd/103759972</gnd>
     </akteur>
-	
-	<akteur id="lauson">
+
+    <akteur id="lauson">
         <name>Johann Friedrich Lauson</name>
         <sortiername>Lauson, Johann Friedrich</sortiername>
         <lebensdaten>1727–1783</lebensdaten>
         <gnd>https://d-nb.info/gnd/101241054</gnd>
     </akteur>
-	
-	<akteur id="philippi-ja">
+
+    <akteur id="philippi-ja">
         <name>Johann Albrecht Philippi</name>
         <sortiername>Philippi, Johann Albrecht</sortiername>
         <lebensdaten>1721–1791</lebensdaten>
         <gnd>https://d-nb.info/gnd/115741208</gnd>
     </akteur>
-	
-	<akteur id="buesching">
+
+    <akteur id="buesching">
         <name>Anton Friedrich Büsching</name>
         <sortiername>Büsching, Anton Friedrich</sortiername>
         <lebensdaten>1724–1793</lebensdaten>
         <gnd>https://d-nb.info/gnd/119003554</gnd>
     </akteur>
-	
-	
-	
+
+
 </akteure>

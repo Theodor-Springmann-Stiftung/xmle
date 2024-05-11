@@ -4,7 +4,7 @@
     xsi:schemaLocation="https://www.koenigsberger-zeitungen.de XSD/KGPZ.xsd">
     <werk id="1">
         <!-- mehrere oder auch gar keine Autoren sind erlaubt-->
-        <autor ref="23"/>
+        <autor ref="23" />
         <autor ref="12">Die Zurordnung eines Werkes zu einem Autor kann charakterisiert werden (Quellen oä.)</autor>
         <!-- Jahr zur Filterung und Sortierung notwendig -->
         <jahr>1783</jahr>
@@ -18,18 +18,25 @@
     <werk id="2">
         <!-- minimaler Eintrag; das Attribut "id" und <zitation> müssen vorhanden sein. -->
         <zitation>Hans</zitation>
-    </werk>buesching-denkmal-stegelmann
-	
-	<werk id="philippi-briefe">
-		<autor ref="philippi-ja"/>
-		<zitation>Johann Albrecht Philippi: Anmuthige und Satyrische Briefe in historischen Erzählungen über verschiedene Begebenheiten (Köln [Berlin] 1764).</zitation>
-		<url>Digitalisat: <wwwlink address="https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00034441?derivate=HisBest_derivate_00020065">ULB Jena</wwwlink></url>
     </werk>
-	
-	<werk id="buesching-denkmal-stegelmann">
-		<autor ref="buesching"/>
-		<zitation>Anton Friedrich Büsching: Die St. Peters-Schule stiftet ihrem grossen Wohlthäter, dem Hochedelgebohrnen Herrn, Herrn Heinrich Christian Stegelmann, Kaiserlichem Hof- und Cammer-Factorn, berühmtem Kaufmanne und höchstverdientem Aeltesten der Evangelischen St. Peters-Gemeine, dieses Denkmahl ihrer dankbaren Hochachtung durch die pflichtmäßige Bemühung ihres Directors D. Anton Friederich Büschings (St. Petersburg 1763).</zitation>
-		<url>Digitalisat: <wwwlink address="http://resolver.sub.uni-goettingen.de/purl?PPN61701471X">SUB Göttingen</wwwlink></url>
+
+    <werk id="philippi-briefe">
+        <autor ref="philippi-ja" />
+        <zitation>Johann Albrecht Philippi: Anmuthige und Satyrische Briefe in historischen
+            Erzählungen über verschiedene Begebenheiten (Köln [Berlin] 1764).</zitation>
+        <url
+            address="https://collections.thulb.uni-jena.de/receive/HisBest_cbu_00034441?derivate=HisBest_derivate_00020065">ULB
+            Jena</url>
     </werk>
-	
+
+    <werk id="buesching-denkmal-stegelmann">
+        <autor ref="buesching" />
+        <zitation>Anton Friedrich Büsching: Die St. Peters-Schule stiftet ihrem grossen Wohlthäter,
+            dem Hochedelgebohrnen Herrn, Herrn Heinrich Christian Stegelmann, Kaiserlichem Hof- und
+            Cammer-Factorn, berühmtem Kaufmanne und höchstverdientem Aeltesten der Evangelischen St.
+            Peters-Gemeine, dieses Denkmahl ihrer dankbaren Hochachtung durch die pflichtmäßige
+            Bemühung ihres Directors D. Anton Friederich Büschings (St. Petersburg 1763).</zitation>
+        <url address="http://resolver.sub.uni-goettingen.de/purl?PPN61701471X">SUB Göttingen</url>
+    </werk>
+
 </werke>

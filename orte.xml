@@ -6,25 +6,23 @@
         <!-- das Attribut id + <name> müssen vorhanden sein -->
         <name>Beispiel</name>
         <!-- geonames muss im Dokument eindeutig sein -->
-        <geonames>https://www.geonames.org/554234</geonames>
+        <geonames>https://www.geonames.org/5594234</geonames>
         <anmerkung>Anmerkung</anmerkung>
         <vermerk>Vermerk</vermerk>
     </ort>
-	
-	<ort id="kgsb">
+
+    <ort id="kgsb">
         <name>Königsberg</name>
         <geonames>https://www.geonames.org/554234</geonames>
     </ort>
-	
-	<ort id="koeln">
+
+    <ort id="koeln">
         <name>Köln</name>
         <geonames>https://www.geonames.org/2886242</geonames>
     </ort>
-	
-	<ort id="stpetersburg">
+
+    <ort id="stpetersburg">
         <name>St. Petersburg</name>
         <geonames>https://www.geonames.org/536203</geonames>
     </ort>
-	
-	
 </orte>

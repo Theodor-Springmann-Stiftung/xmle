@@ -11,17 +11,17 @@
         <!-- Das bis-Attribut ist erforderlich falls der Beitrag Seitengrenzen überschreitet -->
         <stueck jahr="1752" nr="23" von="2" bis="3" />
         <stueck jahr="1799" nr="12" von="5" />
-        <titel>Was</titel>
-        <!-- Ein Beitrag kann einen Titel, ein Incipit, beides oder nichts von beiden haben: -->
-        <incipit>Incipit</incipit>
         <datum>1762-12-12</datum>
         <ort ref="ort">Die Zuordung eines Beitrags zu einem Ort kann annotiert werden</ort>
-        <autor ref="autor">Die Zuordnung eines Beitrags zu einem Autor kann annotiert werden</autor>
-        <!-- oder auch nicht: -->
-        <autor ref="einstein"/>
         <!-- Es kann mehrere Orte, Kategorien oder Autoren geben: -->
         <kategorie ref="kategorie" />
         <kategorie ref="kategorie2" />
+        <autor ref="autor">Die Zuordnung eines Beitrags zu einem Autor kann annotiert werden</autor>
+        <!-- oder auch nicht: -->
+        <autor ref="einstein" />
+        <titel>Was</titel>
+        <!-- Ein Beitrag kann einen Titel, ein Incipit, beides oder nichts von beiden haben: -->
+        <incipit>Incipit</incipit>
         <rezensiert ref="werk">Auch die Zuordnung zu einer Werkrezension kann annotiert werden</rezensiert>
         <anmerkung>Anmerkung</anmerkung>
         <vermerk>Bearbeitungsvermerk</vermerk>
@@ -29,116 +29,116 @@
     <beitrag>
         <!-- Beispiel für einen Beitrag in einer Beilage -->
         <beilage jahr="1762" nr="12" beilage="1" />
-        <titel>Was</titel>
-        <incipit>Incipit</incipit>
         <datum>1762-12-12</datum>
         <ort ref="ort" />
-        <!-- alle Zuordnungen können mit unsicher="true" ausgezeichnet werden, es sich um eine Vermutung handelt -->
+        <kategorie ref="kategorie" />
+        <!-- alle Zuordnungen können mit unsicher="true" ausgezeichnet werden, es sich um eine
+        Vermutung handelt -->
         <!-- Standardwert ist unsicher="false" -->
         <autor ref="autor" unsicher="true">Vgl. Herder Brief 1234</autor>
         <autor ref="weitererautor" />
-        <kategorie ref="kategorie" />
+        <titel>Was</titel>
+        <incipit>Incipit</incipit>
     </beitrag>
     <beitrag>
         <!-- Minimales Beispiel: -->
         <stueck jahr="1752" nr="23" von="2" bis="3" />
         <kategorie ref="währungskurse"></kategorie>
     </beitrag>
-	
-	<beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="1" von="1" bis="2" />
-		<datum>1764-02-03</datum>
-		<autor ref="hamann"/>
-		<autor ref="kanter"/>
-		<ort ref="kgsb"/>
-		<incipit>„So sag ers ja den Klugen nicht…</incipit>
-        <kategorie ref="ineigenersache"/>
-		<anmerkung>Programmatisches Vorwort</anmerkung>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-03</datum>
+        <ort ref="kgsb" />
+        <kategorie ref="ineigenersache" />
+        <autor ref="hamann" />
+        <autor ref="kanter" />
+        <incipit>„So sag ers ja den Klugen nicht…</incipit>
+        <anmerkung>Programmatisches Vorwort</anmerkung>
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="1" von="2" bis="3" />
-		<datum>1764-02-03</datum>
-        <kategorie ref="panegyrik"/>
-		<anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger Akademie zu dessen Geburtstag</anmerkung>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-03</datum>
+        <kategorie ref="panegyrik" />
+        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger Akademie zu dessen Geburtstag</anmerkung>
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="1" von="3" bis="4" />
-		<datum>1764-02-03</datum>
-        <kategorie ref="weltnachrichten"/>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-03</datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="1" von="4" />
-		<datum>1764-02-03</datum>
-        <kategorie ref="avertissement"/>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-03</datum>
+        <kategorie ref="avertissement" />
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="1" von="4" />
-		<datum>1764-02-03</datum>
-        <kategorie ref="wechselkurse"/>
-	</beitrag>
-	
-	<beitrag>
+        <datum>1764-02-03</datum>
+        <kategorie ref="wechselkurse" />
+    </beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="2" von="5" bis="6" />
-		<datum>1764-02-06</datum>
-        <kategorie ref="rezension"/>
-		<ort ref="koeln"/>
-		<autor ref="lauson"/>
-		<rezensiert ref="philippi-briefe">vgl. ZH II, 234</rezensiert>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-06</datum>
+        <ort ref="koeln" />
+        <kategorie ref="rezension" />
+        <autor ref="lauson" />
+        <rezensiert ref="philippi-briefe">vgl. ZH II, 234</rezensiert>
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="2" von="6" bis="7" />
-		<datum>1764-02-06</datum>
-        <kategorie ref="rezension"/>
-		<ort ref="stpetersburg"/>
-		<autor ref="lindner-jg"/>
-		<rezensiert ref="buesching-denkmal-stegelmann">vgl. ZH II, 242</rezensiert>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-06</datum>
+        <ort ref="stpetersburg" />
+        <kategorie ref="rezension" />
+        <autor ref="lindner-jg" />
+        <rezensiert ref="buesching-denkmal-stegelmann">vgl. ZH II, 242</rezensiert>
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="2" von="7" bis="8" />
-		<datum>1764-02-06</datum>
-        <kategorie ref="weltnachrichten"/>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-06</datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="2" von="8" />
-		<datum>1764-02-06</datum>
-        <kategorie ref="avertissement"/>
-	</beitrag>
-	
-	<beitrag>
+        <datum>1764-02-06</datum>
+        <kategorie ref="avertissement" />
+    </beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="3" von="9" bis="11" />
-		<datum>1764-02-10</datum>
-        <kategorie ref="aufsatz"/>
-		<anmerkung>Über den Ziegenpropheten</anmerkung>
-		<ort ref="kgsb"/>
-		<autor ref="hamann">vgl. ZH II, 235</autor>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-10</datum>
+        <ort ref="kgsb" />
+        <kategorie ref="aufsatz" />
+        <autor ref="hamann">vgl. ZH II, 235</autor>
+        <anmerkung>Über den Ziegenpropheten</anmerkung>
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="3" von="11" bis="12" />
-		<datum>1764-02-10</datum>
-        <kategorie ref="weltnachrichten"/>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-10</datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="3" von="12" />
-		<datum>1764-02-10</datum>
-        <kategorie ref="avertissement"/>
-	</beitrag>
-	<beitrag>
+        <datum>1764-02-10</datum>
+        <kategorie ref="avertissement" />
+    </beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="3" von="12" />
-		<datum>1764-02-10</datum>
-        <kategorie ref="wechselkurse"/>
-	</beitrag>
-	
-	<beitrag>
+        <datum>1764-02-10</datum>
+        <kategorie ref="wechselkurse" />
+    </beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="4" von="13" bis="14" />
-		<stueck jahr="1764" nr="5" von="17" bis="18" />
-		<stueck jahr="1764" nr="6" von="21" bis="22" />
-		<stueck jahr="1764" nr="7" von="25" bis="26" />
-		<stueck jahr="1764" nr="8" von="29" bis="30" />
-        <kategorie ref="aufsatz"/>
-		<titel>Versuch über die Krankheiten des Kopfes</titel>
-		<ort ref="kgsb"/>
-		<autor ref="kant">vgl. ZH II, 239</autor>
-		<vermerk>Seitenzahlen der Stücke noch am Original prüfen, ebenso die Beiträge aus Stück 4–8 eintragen, wenn man Scans hat (die sollten auf jeden Fall zu besorgen sein, notfalls in Bremen)</vermerk>
-	</beitrag>
-	
+        <stueck jahr="1764" nr="5" von="17" bis="18" />
+        <stueck jahr="1764" nr="6" von="21" bis="22" />
+        <stueck jahr="1764" nr="7" von="25" bis="26" />
+        <stueck jahr="1764" nr="8" von="29" bis="30" />
+        <ort ref="kgsb" />
+        <kategorie ref="aufsatz" />
+        <autor ref="kant">vgl. ZH II, 239</autor>
+        <titel>Versuch über die Krankheiten des Kopfes</titel>
+        <vermerk>Seitenzahlen der Stücke noch am Original prüfen, ebenso die Beiträge aus Stück 4–8 eintragen, wenn man Scans hat (die sollten auf jeden Fall zu besorgen sein, notfalls in Bremen)</vermerk>
+    </beitrag>
 </beitraege>
