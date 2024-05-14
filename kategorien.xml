@@ -33,7 +33,14 @@
 	
 	<kategorie id="avertissement">
         <name>Avertissement</name>
-		<anmerkung>Werbeanzeigen für Bücher aus dem Kanterschen Buchladen</anmerkung>
+    </kategorie>
+	
+	<kategorie id="buecher">
+        <name>Bücherangebot des Kanterschen Buchladens</name>
+    </kategorie>
+	
+	<kategorie id="lotterie">
+        <name>Lotterieziehung</name>
     </kategorie>
 	
 	<kategorie id="rezension">
@@ -44,4 +51,15 @@
         <name>Aufsatz</name>
 		<vermerk>Benennung gefällt mir nicht; wie könnte mans sonst nennen, wenn ein Autor einen Originalbeitrag über ein Bestimmtes Thema bringt?</vermerk>
     </kategorie>
+	
+	<kategorie id="gedicht">
+        <name>Gedicht</name>
+    </kategorie>
+	
+	<kategorie id="brief">
+        <name>Brief</name>
+    </kategorie>
+	
+	
+	
 </kategorien>

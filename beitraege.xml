@@ -72,6 +72,7 @@
         <stueck jahr="1764" nr="1" von="4" />
         <datum when="1764-02-03"></datum>
         <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="4" />
@@ -84,16 +85,16 @@
         <datum when="1764-02-06"></datum>
         <ort ref="koeln" />
         <kategorie ref="rezension" />
-        <autor ref="lauson" />
-        <rezensiert ref="philippi-briefe">vgl. ZH II, 234</rezensiert>
+        <autor ref="lauson">vgl. ZH II, 234</autor>
+        <rezensiert ref="philippi-briefe"/>
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="6" bis="7" />
         <datum when="1764-02-06"></datum>
         <ort ref="stpetersburg" />
         <kategorie ref="rezension" />
-        <autor ref="lindner-jg" />
-        <rezensiert ref="buesching-denkmal-stegelmann">vgl. ZH II, 242</rezensiert>
+        <autor ref="lindner-jg">vgl. ZH II, 242</autor>
+        <rezensiert ref="buesching-denkmal-stegelmann"/>
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="7" bis="8" />
@@ -104,6 +105,7 @@
         <stueck jahr="1764" nr="2" von="8" />
         <datum when="1764-02-06"></datum>
         <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
     </beitrag>
 
     <beitrag>
@@ -123,6 +125,7 @@
         <stueck jahr="1764" nr="3" von="12" />
         <datum when="1764-02-10"></datum>
         <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="3" von="12" />
@@ -142,4 +145,149 @@
         <titel>Versuch über die Krankheiten des Kopfes</titel>
         <vermerk>Seitenzahlen der Stücke noch am Original prüfen, ebenso die Beiträge aus Stück 4–8 eintragen, wenn man Scans hat (die sollten auf jeden Fall zu besorgen sein, notfalls in Bremen)</vermerk>
     </beitrag>
+
+    <beitrag>
+        <stueck jahr="1764" nr="9" von="33" bis="34" />
+        <datum when="1764-03-02"></datum>
+        <ort ref="lindau" />
+		<ort ref="frankfurt" />
+		<ort ref="leipzig" />
+        <kategorie ref="rezension" />
+        <autor ref="hamann">vgl. ZH II, 239</autor>
+		<rezensiert ref="ausfuehrliche-kritische-nachrichten"/>
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="9" von="34" bis="35" />
+        <datum when="1764-03-02"></datum>
+        <ort ref="berlin" />
+		<kategorie ref="gedicht" />
+		<autor ref="lenov" />
+        <kategorie ref="rezension" />
+        <autor ref="hamann" unsicher="true" />
+		<rezensiert ref="lenov-gedichte"/>
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="9" von="35" bis="36" />
+        <datum when="1764-03-02"></datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="9" von="36" />
+        <datum when="1764-03-02"></datum>
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="9" von="36" />
+        <datum when="1764-03-02"></datum>
+        <kategorie ref="wechselkurse" />
+    </beitrag>
+	
+	<beitrag>
+        <stueck jahr="1764" nr="10" von="37" bis="38" />
+        <datum when="1764-03-05"></datum>
+        <ort ref="berlin" />
+        <kategorie ref="rezension" />
+        <autor ref="hamann">vgl. ZH II, 239</autor>
+		<rezensiert ref="argens-beytrage"/>
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="10" von="38" bis="39" />
+        <datum when="1764-03-05"></datum>
+        <ort ref="leipzig" />
+        <kategorie ref="rezension" />
+		<rezensiert ref="home-critick"/>
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="10" von="39" bis="40" />
+        <datum when="1764-03-05"></datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="10" von="40" />
+        <datum when="1764-03-05"></datum>
+        <kategorie ref="avertissement" />
+		<kategorie ref="lotterie" />
+    </beitrag>
+	
+	<beitrag>
+        <stueck jahr="1764" nr="11" von="41" bis="42" />
+        <datum when="1764-03-09"></datum>
+        <ort ref="berlin" />
+        <kategorie ref="rezension" />
+		<rezensiert ref="karsch-gedichte"/>
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="11" von="43" bis="44" />
+        <datum when="1764-03-09"></datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="11" von="44" />
+        <datum when="1764-03-09"></datum>
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+	
+	<beitrag>
+        <stueck jahr="1764" nr="12" von="45" bis="47" />
+        <datum when="1764-03-12"></datum>
+        <kategorie ref="gedichte" />
+		<autor ref="karsch" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="12" von="48" />
+        <datum when="1764-03-12"></datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="12" von="48" />
+        <datum when="1764-03-12"></datum>
+        <kategorie ref="avertissement" />
+		<kategorie ref="lotterie" />
+    </beitrag>
+	
+	<beitrag>
+        <stueck jahr="1764" nr="13" von="49" />
+        <datum when="1764-03-16"></datum>
+		<ort ref="berlin" />
+        <kategorie ref="rezension" />
+		<rezensiert ref="nicolai-literaturbriefe"/>
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="13" von="49" />
+        <datum when="1764-03-16"></datum>
+		<ort ref="berlin" />
+        <kategorie ref="rezension" />
+		<rezensiert ref="nicolai-literaturbriefe"/>
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="13" von="50" bis="51" />
+        <datum when="1764-03-16"></datum>
+		<ort ref="berlin" />
+        <kategorie ref="aufsatz" />
+		<kategorie ref="brief" />
+		<titel>Leben und Wunder des Herrn Johann Winckelmanns</titel>
+		<autor ref="winckelmann" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="13" von="51" bis="52" />
+        <datum when="1764-03-16"></datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="13" von="52" />
+        <datum when="1764-03-16"></datum>
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="13" von="52" />
+        <datum when="1764-03-16"></datum>
+        <kategorie ref="wechselkurse" />
+    </beitrag>
+	
+	
+	
+	
 </beitraege>

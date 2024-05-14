@@ -25,4 +25,24 @@
         <name>St. Petersburg</name>
         <geonames>https://www.geonames.org/536203</geonames>
     </ort>
+
+    <ort id="lindau">
+        <name>Lindau</name>
+        <geonames>https://www.geonames.org/2877550</geonames>
+    </ort>
+
+    <ort id="frankfurt">
+        <name>Frankfurt am Main</name>
+        <geonames>https://www.geonames.org/6553153</geonames>
+    </ort>
+
+    <ort id="leipzig">
+        <name>Leipzig</name>
+        <geonames>https://www.geonames.org/2879139</geonames>
+    </ort>
+
+    <ort id="berlin">
+        <name>Berlin</name>
+        <geonames>https://www.geonames.org/2950159</geonames>
+    </ort>
 </orte>

@@ -51,4 +51,64 @@
         <lebensdaten>1724–1793</lebensdaten>
         <gnd>https://d-nb.info/gnd/119003554</gnd>
     </akteur>
+
+    <akteur id="otto-j">
+        <name>Jacob Otto</name>
+        <sortiername>Otto, Jacob</sortiername>
+        <lebensdaten>Gest. 1788</lebensdaten>
+        <gnd>https://d-nb.info/gnd/103753641X</gnd>
+    </akteur>
+
+    <akteur id="lenov">
+        <name>Lenov</name>
+        <sortiername>Lenov</sortiername>
+        <lebensdaten>Vorname und Lebensdaten unbekannt, 18. Jh.</lebensdaten>
+        <gnd>https://d-nb.info/gnd/138160384</gnd>
+    </akteur>
+
+    <akteur id="argens">
+        <name>Jean-Baptiste de Boyer, Marquis d’Argens</name>
+        <sortiername>Argens, Jean</sortiername>
+        <lebensdaten>1703–1771</lebensdaten>
+        <gnd>https://d-nb.info/gnd/11865005X</gnd>
+    </akteur>
+
+    <akteur id="home">
+        <name>Henry Home Kames</name>
+        <sortiername>Kames, Henry</sortiername>
+        <lebensdaten>1696–1782</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118774832</gnd>
+    </akteur>
+
+    <akteur id="karsch">
+        <name>Anna Luisa Karsch</name>
+        <sortiername>Karsch, Anna</sortiername>
+        <lebensdaten>1722–1791</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118560328</gnd>
+    </akteur>
+
+    <akteur id="nicolai">
+        <name>Friedrich Nicolai</name>
+        <sortiername>Nicolai, Friedrich</sortiername>
+        <lebensdaten>1733–1811</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118587668</gnd>
+    </akteur>
+
+    <akteur id="winckelmann">
+        <name>Johann Joachim Winckelmann</name>
+        <sortiername>Winckelmann, Johann Joachim</sortiername>
+        <lebensdaten>1717–1768</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118633600</gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <sortiername></sortiername>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+	
+	
+	
+	
 </akteure>

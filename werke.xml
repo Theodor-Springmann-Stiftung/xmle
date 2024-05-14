@@ -38,4 +38,46 @@
         <url address="http://resolver.sub.uni-goettingen.de/purl?PPN61701471X">SUB Göttingen</url>
     </werk>
 
+    <werk id="ausfuehrliche-kritische-nachrichten">
+        <autor ref="otto-j" />
+        <zitation>Ausführliche und kritische Nachrichten von den besten und merkwürdigsten Schriften unserer Zeit, nebst andern zur Gelahrtheit gehörigen Sachen, hrsg. von Jacob Otto (Lindau, Frankfurt, Leipzig 1763–1766).</zitation>
+        <url address="https://gdz.sub.uni-goettingen.de/id/PPN731784995">SUB Göttingen</url>
+    </werk>
+
+    <werk id="lenov-gedichte">
+        <autor ref="lenov" />
+        <zitation>Sieben kleine Gedichte nach Anacreons Manier (Berlin 1764).</zitation>
+        <url address="http://resolver.sub.uni-goettingen.de/purl?PPN637719743">SUB Göttingen</url>
+    </werk>
+
+    <werk id="argens-beytrage">
+        <autor ref="argens" />
+        <zitation>Des Marquis d’Argens und der Demoiselle Cochois gemeinschaftliche Beyträge zum Vergnügen für den Geist und das Herz. Aus dem Französischen übersetzt (Berlin: Mylius 1763).</zitation>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10103463-7">BSB München</url>
+    </werk>
+
+    <werk id="home-critick">
+        <autor ref="home" />
+        <zitation>Elements of Criticism (3&#xA0;Bde., Edinburgh 1762). Übers. (von Johann Nicolaus Meinhard): Grundsätze der Critik, in drey Theilen, von Heinrich Home, aus dem Englischen übersetzt (3&#xA0;Bde., Leipzig: Dyckische Handlung 1763–1766).</zitation>
+        <url address="https://digi.ub.uni-heidelberg.de/diglit/kames1763bd1">UB Heidelberg</url>
+    </werk>
+
+    <werk id="karsch-gedichte">
+        <autor ref="karsch" />
+        <zitation>Auserlesene Gedichte (Berlin: Winter 1764).</zitation>
+        <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5"></url>
+    </werk>
+
+    <werk id="nicolai-literaturbriefe">
+        <autor ref="nicolai" />
+        <zitation>Briefe die neueste Litteratur betreffend, hg. von Friedrich Nicolai (Berlin 1759–1765)</zitation>
+        <url address="http://ds.ub.uni-bielefeld.de/viewer/toc/1921386/0/LOG_0000/">UB Bielefeld</url>
+    </werk>
+
+    <werk id="">
+        <autor ref="" />
+        <zitation></zitation>
+        <url address=""></url>
+    </werk>
+
 </werke>
