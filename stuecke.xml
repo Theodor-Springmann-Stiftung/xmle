@@ -575,12 +575,7 @@
         <von>377</von>
         <bis>380</bis>
     </stueck>
-    <stueck>
-        <nummer>96</nummer>
-        <datum when="1764-12-31"></datum>
-        <von>381</von>
-        <bis>384</bis>
-    </stueck>
+
     <stueck>
         <nummer>1</nummer>
         <datum when="1765-01-04"></datum>
@@ -741,8 +736,9 @@
         <nummer>27</nummer>
         <datum when="1765-04-05"></datum>
         <von>105</von>
-        <bis>108</bis>
+        <bis>112</bis>
     </stueck>
+	
     <stueck>
         <nummer>28</nummer>
         <datum when="1765-04-08"></datum>
