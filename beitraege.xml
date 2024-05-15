@@ -337,5 +337,47 @@
         <auszug von ref="hirzel-bauer" />
     </beitrag>
 	
+	<beitrag>
+        <stueck jahr="1764" nr="16" von="62" bis="63" />
+        <datum when="1764-03-26"></datum>
+        <kategorie ref="rezension" />
+		<rezensiert ref="bertling-berichte"/>
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="16" von="63" bis="64" />
+        <datum when="1764-03-26"></datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="16" von="64" />
+        <datum when="1764-03-26"></datum>
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+	
+	<beitrag>
+        <stueck jahr="1764" nr="17" von="65" bis="67" />
+        <datum when="1764-03-30"></datum>
+        <kategorie ref="rezension" />
+		<autor ref="herder">vgl. SWS IX, 93f.</autor>
+		<rezensiert ref="arnoldt-gedanken"/>
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="17" von="67" bis="68" />
+        <datum when="1764-03-30"></datum>
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="17" von="68" />
+        <datum when="1764-03-30"></datum>
+        <kategorie ref="wechselkurse" />
+    </beitrag>
+	
+	
+	
+	
+	
+	
+	
 	
 </beitraege>

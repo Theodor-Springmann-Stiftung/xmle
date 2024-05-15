@@ -122,6 +122,27 @@
         <gnd>https://d-nb.info/gnd/119020890</gnd>
     </akteur>
 
+    <akteur id="bertling">
+        <name>Ernst August Bertling</name>
+        <sortiername>Bertling, Ernst August</sortiername>
+        <lebensdaten>1721–1769</lebensdaten>
+        <gnd>https://d-nb.info/gnd/116149566</gnd>
+    </akteur>
+
+    <akteur id="arnoldt">
+        <name>Daniel Heinrich Arnoldt</name>
+        <sortiername>Arnoldt, Daniel Heinrich </sortiername>
+        <lebensdaten>1706–1775</lebensdaten>
+        <gnd>https://d-nb.info/gnd/129625760</gnd>
+    </akteur>
+
+    <akteur id="herder">
+        <name>Johann Gottfried Herder</name>
+        <sortiername>Herder, Johann Gottfried</sortiername>
+        <lebensdaten>1744–1803</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118549553</gnd>
+    </akteur>
+
     <akteur id="">
         <name></name>
         <sortiername></sortiername>
