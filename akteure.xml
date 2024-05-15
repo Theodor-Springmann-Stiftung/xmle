@@ -101,6 +101,27 @@
         <gnd>https://d-nb.info/gnd/118633600</gnd>
     </akteur>
 
+    <akteur id="werner-jg">
+        <name>Johann Gottfried von Werner</name>
+        <sortiername>Werner, Johann Gottfried von</sortiername>
+        <lebensdaten>1703–1761</lebensdaten>
+        <gnd>https://d-nb.info/gnd/1082228885</gnd>
+    </akteur>
+
+    <akteur id="silberschlag">
+        <name>Johann Esaias Silberschlag</name>
+        <sortiername>Silberschlag, Johann Esaias </sortiername>
+        <lebensdaten>1721–1791</lebensdaten>
+        <gnd>https://d-nb.info/gnd/115360166</gnd>
+    </akteur>
+
+    <akteur id="hirzel">
+        <name>Johann Caspar Hirzel</name>
+        <sortiername>Hirzel, Johann Caspar</sortiername>
+        <lebensdaten>1725–1803</lebensdaten>
+        <gnd>https://d-nb.info/gnd/119020890</gnd>
+    </akteur>
+
     <akteur id="">
         <name></name>
         <sortiername></sortiername>

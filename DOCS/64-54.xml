@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.12.1:model_id=39995:lm=none:date=20_03_2024_21:43</Creator>
+        <Created>2024-03-20T22:33:09.970+01:00</Created>
+        <LastChange>2024-03-20T21:43:06.777Z</LastChange>
+        <TranskribusMetadata docId="1889168" pageId="66903425" pageNr="2" tsid="152861514" status="IN_PROGRESS" userId="222699" imgUrl="https://files.transkribus.eu/Get?id=VCERTVNCTSHWNRLZLTTAEBUI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WYESEPYTJSZZOZLJYIDUSALL" imageId="53558204"/>
+    </Metadata>
+    <Page imageFilename="66903425.jpg" imageWidth="2479" imageHeight="3508">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1710970986778" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_10"/>
+                <RegionRefIndexed index="1" regionRef="r_11"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r_10" custom="readingOrder {index:0;}">
+            <Coords points="199,292 1251,288 1251,2831 192,2836"/>
+            <TextLine id="r_10_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="300,351 1116,360 1116,297 961,275 716,306 481,267 300,297"/>
+                <Baseline points="307,349 313,349 358,349 403,346 447,346 492,343 537,343 582,343 626,343 671,340 716,343 761,343 806,343 850,343 895,343 940,343 985,340 1030,340 1074,343 1119,340"/>
+                <Word id="r_10_tl_1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="308,309 308,369 350,369 350,309"/>
+                    <TextEquiv>
+                        <Unicode>Et</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="381,306 381,366 497,366 497,306"/>
+                    <TextEquiv>
+                        <Unicode>rutilat</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_1_w3" custom="readingOrder {index:2;}">
+                    <Coords points="522,303 522,363 614,363 614,303"/>
+                    <TextEquiv>
+                        <Unicode>fului</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_1_w4" custom="readingOrder {index:3;}">
+                    <Coords points="639,303 639,363 817,363 817,303"/>
+                    <TextEquiv>
+                        <Unicode>flammula</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_1_w5" custom="readingOrder {index:4;}">
+                    <Coords points="848,303 848,363 971,363 971,303"/>
+                    <TextEquiv>
+                        <Unicode>blanda</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_1_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1009,302 1009,362 1118,362 1118,302"/>
+                    <TextEquiv>
+                        <Unicode>croci.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Et rutilat fului flammula blanda croci.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="215,498 806,469 1026,503 1126,490 1128,442 844,408 216,433"/>
+                <Baseline points="223,474 235,474 280,474 325,474 370,471 414,471 459,471 504,471 549,471 594,471 638,471 683,471 728,471 773,471 818,468 862,471 907,471 952,468 997,468 1041,468 1086,468 1131,465"/>
+                <Word id="r_10_tl_2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="222,434 222,494 349,494 349,434"/>
+                    <TextEquiv>
+                        <Unicode>Aureus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_2_w2" custom="readingOrder {index:1;}">
+                    <Coords points="379,431 379,491 431,491 431,431"/>
+                    <TextEquiv>
+                        <Unicode>hic</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_2_w3" custom="readingOrder {index:2;}">
+                    <Coords points="460,431 460,491 635,491 635,431"/>
+                    <TextEquiv>
+                        <Unicode>Narcissus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_2_w4" custom="readingOrder {index:3;}">
+                    <Coords points="671,431 671,491 781,491 781,431"/>
+                    <TextEquiv>
+                        <Unicode>adest,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_2_w5" custom="readingOrder {index:4;}">
+                    <Coords points="811,431 811,491 985,491 985,431"/>
+                    <TextEquiv>
+                        <Unicode>argenteus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_2_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1021,428 1021,488 1113,488 1113,428"/>
+                    <TextEquiv>
+                        <Unicode>illic:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Aureus hic Narcissus adest, argenteus illic:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="300,619 606,606 720,641 824,604 969,657 1113,624 1211,643 1211,548 1093,529 993,561 798,538 718,570 300,572"/>
+                <Baseline points="307,600 319,597 364,600 409,600 453,600 498,600 543,600 588,600 632,600 677,600 722,600 767,600 812,600 856,597 901,597 946,600 991,597 1035,600 1080,600 1125,597 1170,597 1215,597"/>
+                <Word id="r_10_tl_3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="309,560 309,620 471,620 471,560"/>
+                    <TextEquiv>
+                        <Unicode>Discolor</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="504,560 504,620 594,620 594,560"/>
+                    <TextEquiv>
+                        <Unicode>atque</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_3_w3" custom="readingOrder {index:2;}">
+                    <Coords points="628,560 628,620 725,620 725,560"/>
+                    <TextEquiv>
+                        <Unicode>decus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_3_w4" custom="readingOrder {index:3;}">
+                    <Coords points="764,560 764,620 823,620 823,560"/>
+                    <TextEquiv>
+                        <Unicode>flos</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_3_w5" custom="readingOrder {index:4;}">
+                    <Coords points="856,558 856,618 1069,618 1069,558"/>
+                    <TextEquiv>
+                        <Unicode>Hyacinthus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_3_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1097,557 1097,617 1199,617 1199,557"/>
+                    <TextEquiv>
+                        <Unicode>habet</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Discolor atque decus flos Hyacinthus habet</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="210,750 1109,741 1111,665 993,695 893,669 664,699 588,670 558,698 211,684"/>
+                <Baseline points="217,731 262,731 307,731 352,731 397,731 441,731 486,731 531,731 576,728 620,731 665,731 710,728 755,728 800,728 844,725 889,725 934,728 979,725 1024,725 1068,725 1113,728"/>
+                <Word id="r_10_tl_4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="216,691 216,751 397,751 397,691"/>
+                    <TextEquiv>
+                        <Unicode>Hepaticae</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="429,691 429,751 536,751 536,691"/>
+                    <TextEquiv>
+                        <Unicode>flauas</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_4_w3" custom="readingOrder {index:2;}">
+                    <Coords points="563,690 563,750 670,750 670,690"/>
+                    <TextEquiv>
+                        <Unicode>micat</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_4_w4" custom="readingOrder {index:3;}">
+                    <Coords points="702,688 702,748 782,748 782,688"/>
+                    <TextEquiv>
+                        <Unicode>inter</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_4_w5" custom="readingOrder {index:4;}">
+                    <Coords points="815,685 815,745 938,745 938,685"/>
+                    <TextEquiv>
+                        <Unicode>stellula</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_4_w6" custom="readingOrder {index:5;}">
+                    <Coords points="970,685 970,745 1098,745 1098,685"/>
+                    <TextEquiv>
+                        <Unicode>calthas</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Hepaticae flauas micat inter stellula calthas</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="312,897 760,901 849,868 997,923 1179,907 1168,802 939,825 854,799 795,829 551,789 312,820"/>
+                <Baseline points="319,859 331,856 376,859 420,859 465,859 510,856 555,856 600,856 644,856 689,856 734,856 779,856 824,853 868,856 913,856 958,856 1003,856 1047,856 1092,856 1137,856 1182,856"/>
+                <Word id="r_10_tl_5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="323,819 323,879 476,879 476,819"/>
+                    <TextEquiv>
+                        <Unicode>Qvasqve</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="506,816 506,876 674,876 674,816"/>
+                    <TextEquiv>
+                        <Unicode>coloratas</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_5_w3" custom="readingOrder {index:2;}">
+                    <Coords points="704,816 704,876 770,876 770,816"/>
+                    <TextEquiv>
+                        <Unicode>fers</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_5_w4" custom="readingOrder {index:3;}">
+                    <Coords points="800,816 800,876 1011,876 1011,816"/>
+                    <TextEquiv>
+                        <Unicode>Amaranthe</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_5_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1041,816 1041,876 1172,876 1172,816"/>
+                    <TextEquiv>
+                        <Unicode>comas.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Qvasqve coloratas fers Amaranthe comas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="201,1001 339,996 478,1043 562,996 614,1020 837,988 919,1022 990,993 1151,1047 1151,952 1093,927 996,947 872,913 614,957 403,954 293,910 201,935"/>
+                <Baseline points="208,985 253,985 298,985 343,985 388,985 432,985 477,985 522,988 567,985 612,985 656,985 701,985 746,985 791,985 835,985 880,985 925,982 970,985 1015,985 1059,988 1104,988 1149,991 1155,991"/>
+                <Word id="r_10_tl_6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="213,945 213,1005 296,1005 296,945"/>
+                    <TextEquiv>
+                        <Unicode>Mox</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_6_w2" custom="readingOrder {index:1;}">
+                    <Coords points="327,945 327,1005 418,1005 418,945"/>
+                    <TextEquiv>
+                        <Unicode>dotes</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_6_w3" custom="readingOrder {index:2;}">
+                    <Coords points="450,948 450,1008 594,1008 594,948"/>
+                    <TextEquiv>
+                        <Unicode>reliquas</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_6_w4" custom="readingOrder {index:3;}">
+                    <Coords points="625,945 625,1005 762,1005 762,945"/>
+                    <TextEquiv>
+                        <Unicode>cuoluet</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_6_w5" custom="readingOrder {index:4;}">
+                    <Coords points="793,945 793,1005 892,1005 892,945"/>
+                    <TextEquiv>
+                        <Unicode>Flora</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_6_w6" custom="readingOrder {index:5;}">
+                    <Coords points="916,946 916,1006 1151,1006 1151,946"/>
+                    <TextEquiv>
+                        <Unicode>triumphans,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Mox dotes reliquas cuoluet Flora triumphans,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="300,1125 1159,1143 1159,1089 1116,1065 300,1068"/>
+                <Baseline points="307,1113 352,1116 397,1119 441,1116 486,1116 531,1119 576,1119 620,1116 665,1116 710,1116 755,1113 800,1113 844,1113 889,1113 934,1113 979,1110 1024,1110 1068,1110 1113,1113 1158,1113 1161,1113"/>
+                <Word id="r_10_tl_7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="302,1074 302,1134 358,1134 358,1074"/>
+                    <TextEquiv>
+                        <Unicode>Iam</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_7_w2" custom="readingOrder {index:1;}">
+                    <Coords points="408,1076 408,1136 533,1136 533,1076"/>
+                    <TextEquiv>
+                        <Unicode>pratis,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_7_w3" custom="readingOrder {index:2;}">
+                    <Coords points="559,1076 559,1136 671,1136 671,1076"/>
+                    <TextEquiv>
+                        <Unicode>hortis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_7_w4" custom="readingOrder {index:3;}">
+                    <Coords points="709,1073 709,1133 778,1133 778,1073"/>
+                    <TextEquiv>
+                        <Unicode>spes</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_7_w5" custom="readingOrder {index:4;}">
+                    <Coords points="810,1073 810,1133 1017,1133 1017,1073"/>
+                    <TextEquiv>
+                        <Unicode>peramaena</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_7_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1049,1072 1049,1132 1148,1132 1148,1072"/>
+                    <TextEquiv>
+                        <Unicode>ridet.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Iam pratis, hortis spes peramaena ridet.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="210,1257 434,1242 581,1274 772,1241 944,1284 1108,1256 1108,1198 1053,1180 210,1189"/>
+                <Baseline points="217,1241 262,1241 307,1241 352,1241 397,1241 441,1241 486,1241 531,1241 576,1241 620,1238 665,1238 710,1238 755,1238 800,1238 844,1236 889,1238 934,1236 979,1238 1024,1236 1068,1238 1110,1241"/>
+                <Word id="r_10_tl_8_w1" custom="readingOrder {index:0;}">
+                    <Coords points="218,1201 218,1261 408,1261 408,1201"/>
+                    <TextEquiv>
+                        <Unicode>Exsurgunt</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_8_w2" custom="readingOrder {index:1;}">
+                    <Coords points="433,1201 433,1261 555,1261 555,1201"/>
+                    <TextEquiv>
+                        <Unicode>teneris</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_8_w3" custom="readingOrder {index:2;}">
+                    <Coords points="593,1198 593,1258 747,1258 747,1198"/>
+                    <TextEquiv>
+                        <Unicode>congesta</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_8_w4" custom="readingOrder {index:3;}">
+                    <Coords points="785,1196 785,1256 907,1256 907,1196"/>
+                    <TextEquiv>
+                        <Unicode>cubilia</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_8_w5" custom="readingOrder {index:4;}">
+                    <Coords points="951,1196 951,1256 1098,1256 1098,1196"/>
+                    <TextEquiv>
+                        <Unicode>plantis,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Exsurgunt teneris congesta cubilia plantis,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="302,1415 567,1372 1086,1385 1087,1318 837,1347 778,1314 705,1339 651,1315 304,1321"/>
+                <Baseline points="310,1370 355,1370 400,1370 444,1370 489,1370 534,1370 579,1370 623,1370 668,1370 713,1370 758,1367 803,1367 847,1367 892,1367 937,1370 982,1367 1027,1367 1071,1373 1089,1370"/>
+                <Word id="r_10_tl_9_w1" custom="readingOrder {index:0;}">
+                    <Coords points="315,1330 315,1390 535,1390 535,1330"/>
+                    <TextEquiv>
+                        <Unicode>Ingeminant</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_9_w2" custom="readingOrder {index:1;}">
+                    <Coords points="572,1330 572,1390 654,1390 654,1330"/>
+                    <TextEquiv>
+                        <Unicode>solem</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_9_w3" custom="readingOrder {index:2;}">
+                    <Coords points="708,1327 708,1387 809,1387 809,1327"/>
+                    <TextEquiv>
+                        <Unicode>vitrea</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_9_w4" custom="readingOrder {index:3;}">
+                    <Coords points="858,1327 858,1387 940,1387 940,1327"/>
+                    <TextEquiv>
+                        <Unicode>tecta</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_9_w5" custom="readingOrder {index:4;}">
+                    <Coords points="983,1327 983,1387 1077,1387 1077,1327"/>
+                    <TextEquiv>
+                        <Unicode>foco,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Ingeminant solem vitrea tecta foco,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="210,1512 1008,1506 1125,1537 1125,1437 696,1472 210,1456"/>
+                <Baseline points="217,1501 262,1501 307,1498 352,1498 397,1501 441,1498 486,1501 531,1501 576,1501 620,1498 665,1498 710,1501 755,1501 800,1501 844,1498 889,1501 934,1501 979,1501 1024,1501 1068,1501 1113,1504 1128,1504"/>
+                <Word id="r_10_tl_10_w1" custom="readingOrder {index:0;}">
+                    <Coords points="216,1458 216,1518 415,1518 415,1458"/>
+                    <TextEquiv>
+                        <Unicode>Connubiis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_10_w2" custom="readingOrder {index:1;}">
+                    <Coords points="443,1461 443,1521 575,1521 575,1461"/>
+                    <TextEquiv>
+                        <Unicode>junctae</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_10_w3" custom="readingOrder {index:2;}">
+                    <Coords points="603,1458 603,1518 724,1518 724,1458"/>
+                    <TextEquiv>
+                        <Unicode>coëunt</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_10_w4" custom="readingOrder {index:3;}">
+                    <Coords points="753,1461 753,1521 780,1521 780,1461"/>
+                    <TextEquiv>
+                        <Unicode>in</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_10_w5" custom="readingOrder {index:4;}">
+                    <Coords points="819,1460 819,1520 951,1520 951,1460"/>
+                    <TextEquiv>
+                        <Unicode>foedera</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_10_w6" custom="readingOrder {index:5;}">
+                    <Coords points="980,1461 980,1521 1117,1521 1117,1461"/>
+                    <TextEquiv>
+                        <Unicode>stirpes,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Connubiis junctae coëunt in foedera stirpes,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="306,1634 383,1661 447,1632 1068,1645 1078,1576 306,1594"/>
+                <Baseline points="313,1627 319,1627 364,1627 409,1630 453,1630 498,1630 543,1627 588,1627 632,1627 677,1627 722,1627 767,1627 812,1624 856,1624 901,1624 946,1624 991,1624 1035,1624 1080,1624"/>
+                <Word id="r_10_tl_11_w1" custom="readingOrder {index:0;}">
+                    <Coords points="311,1587 311,1647 429,1647 429,1587"/>
+                    <TextEquiv>
+                        <Unicode>Stipite</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_11_w2" custom="readingOrder {index:1;}">
+                    <Coords points="471,1587 471,1647 626,1647 626,1587"/>
+                    <TextEquiv>
+                        <Unicode>nobilior</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_11_w3" custom="readingOrder {index:2;}">
+                    <Coords points="663,1587 663,1647 786,1647 786,1587"/>
+                    <TextEquiv>
+                        <Unicode>termes</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_11_w4" custom="readingOrder {index:3;}">
+                    <Coords points="818,1584 818,1644 947,1644 947,1584"/>
+                    <TextEquiv>
+                        <Unicode>adultus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_11_w5" custom="readingOrder {index:4;}">
+                    <Coords points="984,1584 984,1644 1060,1644 1060,1584"/>
+                    <TextEquiv>
+                        <Unicode>erit.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Stipite nobilior termes adultus erit.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="203,1761 1086,1764 1086,1701 1042,1694 203,1711"/>
+                <Baseline points="211,1749 256,1752 301,1752 346,1752 391,1752 435,1749 480,1749 525,1746 570,1749 615,1746 659,1746 704,1746 749,1743 794,1743 838,1743 883,1743 928,1743 973,1743 1018,1746 1062,1746 1089,1749"/>
+                <Word id="r_10_tl_12_w1" custom="readingOrder {index:0;}">
+                    <Coords points="208,1712 208,1772 334,1772 334,1712"/>
+                    <TextEquiv>
+                        <Unicode>Papilio</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_12_w2" custom="readingOrder {index:1;}">
+                    <Coords points="380,1709 380,1769 481,1769 481,1709"/>
+                    <TextEquiv>
+                        <Unicode>pictis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_12_w3" custom="readingOrder {index:2;}">
+                    <Coords points="522,1706 522,1766 694,1766 694,1706"/>
+                    <TextEquiv>
+                        <Unicode>tremulue</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_12_w4" custom="readingOrder {index:3;}">
+                    <Coords points="730,1703 730,1763 957,1763 957,1703"/>
+                    <TextEquiv>
+                        <Unicode>aircumvolar</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_12_w5" custom="readingOrder {index:4;}">
+                    <Coords points="983,1706 983,1766 1059,1766 1059,1706"/>
+                    <TextEquiv>
+                        <Unicode>alis,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Papilio pictis tremulue aircumvolar alis,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="296,1909 785,1880 1172,1906 1173,1830 1074,1817 785,1853 664,1819 529,1850 433,1816 297,1854"/>
+                <Baseline points="304,1880 325,1880 370,1880 414,1880 459,1883 504,1883 549,1880 594,1880 638,1877 683,1877 728,1877 773,1877 818,1877 862,1877 907,1877 952,1877 997,1874 1041,1877 1086,1877 1131,1877 1176,1874"/>
+                <Word id="r_10_tl_13_w1" custom="readingOrder {index:0;}">
+                    <Coords points="308,1840 308,1900 387,1900 387,1840"/>
+                    <TextEquiv>
+                        <Unicode>Nec</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_13_w2" custom="readingOrder {index:1;}">
+                    <Coords points="416,1842 416,1902 495,1902 495,1842"/>
+                    <TextEquiv>
+                        <Unicode>flos,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_13_w3" custom="readingOrder {index:2;}">
+                    <Coords points="518,1840 518,1900 574,1900 574,1840"/>
+                    <TextEquiv>
+                        <Unicode>nec</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_13_w4" custom="readingOrder {index:3;}">
+                    <Coords points="609,1837 609,1897 767,1897 767,1837"/>
+                    <TextEquiv>
+                        <Unicode>volucris,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_13_w5" custom="readingOrder {index:4;}">
+                    <Coords points="796,1837 796,1897 898,1897 898,1837"/>
+                    <TextEquiv>
+                        <Unicode>mixta</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_13_w6" custom="readingOrder {index:5;}">
+                    <Coords points="927,1835 927,1895 1034,1895 1034,1835"/>
+                    <TextEquiv>
+                        <Unicode>figura</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_13_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1063,1837 1063,1897 1147,1897 1147,1837"/>
+                    <TextEquiv>
+                        <Unicode>niten</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Nec flos, nec volucris, mixta figura niten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="199,2042 355,2012 1099,2010 1099,1965 1000,1950 201,1969"/>
+                <Baseline points="208,2006 250,2009 295,2009 340,2009 385,2009 429,2006 474,2006 519,2003 564,2003 609,2003 653,2003 698,2000 743,2000 788,1997 832,2000 877,2000 922,2000 967,2000 1012,2000 1056,2000 1101,2000"/>
+                <Word id="r_10_tl_14_w1" custom="readingOrder {index:0;}">
+                    <Coords points="205,1968 205,2028 273,2028 273,1968"/>
+                    <TextEquiv>
+                        <Unicode>Dum</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_14_w2" custom="readingOrder {index:1;}">
+                    <Coords points="328,1968 328,2028 466,2028 466,1968"/>
+                    <TextEquiv>
+                        <Unicode>turgent</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_14_w3" custom="readingOrder {index:2;}">
+                    <Coords points="493,1963 493,2023 594,2023 594,1963"/>
+                    <TextEquiv>
+                        <Unicode>nodis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_14_w4" custom="readingOrder {index:3;}">
+                    <Coords points="622,1961 622,2021 733,2021 733,1961"/>
+                    <TextEquiv>
+                        <Unicode>salicis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_14_w5" custom="readingOrder {index:4;}">
+                    <Coords points="766,1960 766,2020 937,2020 937,1960"/>
+                    <TextEquiv>
+                        <Unicode>mendacia</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_14_w6" custom="readingOrder {index:5;}">
+                    <Coords points="969,1960 969,2020 1086,2020 1086,1960"/>
+                    <TextEquiv>
+                        <Unicode>lanae,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Dum turgent nodis salicis mendacia lanae,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="300,2159 807,2137 1090,2163 1143,2152 1145,2087 301,2083"/>
+                <Baseline points="307,2140 340,2137 385,2137 429,2137 474,2137 519,2137 564,2137 609,2137 653,2134 698,2134 743,2134 788,2134 832,2134 877,2134 922,2134 967,2134 1012,2134 1056,2134 1101,2131 1146,2131"/>
+                <Word id="r_10_tl_15_w1" custom="readingOrder {index:0;}">
+                    <Coords points="308,2097 308,2157 426,2157 426,2097"/>
+                    <TextEquiv>
+                        <Unicode>Dulcia</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_15_w2" custom="readingOrder {index:1;}">
+                    <Coords points="464,2097 464,2157 563,2157 563,2097"/>
+                    <TextEquiv>
+                        <Unicode>mella</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_15_w3" custom="readingOrder {index:2;}">
+                    <Coords points="594,2094 594,2154 706,2154 706,2094"/>
+                    <TextEquiv>
+                        <Unicode>petens</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_15_w4" custom="readingOrder {index:3;}">
+                    <Coords points="738,2094 738,2154 824,2154 824,2094"/>
+                    <TextEquiv>
+                        <Unicode>lacta</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_15_w5" custom="readingOrder {index:4;}">
+                    <Coords points="868,2094 868,2154 1011,2154 1011,2094"/>
+                    <TextEquiv>
+                        <Unicode>susurrat</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_15_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1049,2091 1049,2151 1135,2151 1135,2091"/>
+                    <TextEquiv>
+                        <Unicode>apis.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Dulcia mella petens lacta susurrat apis.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="207,2278 1100,2276 1076,2220 647,2219 592,2190 372,2240 207,2219"/>
+                <Baseline points="214,2263 259,2266 304,2266 349,2266 394,2266 438,2263 483,2263 528,2263 573,2263 618,2263 662,2260 707,2260 752,2260 797,2260 841,2260 886,2260 931,2263 976,2266 1021,2266 1065,2266 1104,2263"/>
+                <Word id="r_10_tl_16_w1" custom="readingOrder {index:0;}">
+                    <Coords points="215,2226 215,2286 407,2286 407,2226"/>
+                    <TextEquiv>
+                        <Unicode>Clarisonos</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_16_w2" custom="readingOrder {index:1;}">
+                    <Coords points="438,2223 438,2283 625,2283 625,2223"/>
+                    <TextEquiv>
+                        <Unicode>philomela</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_16_w3" custom="readingOrder {index:2;}">
+                    <Coords points="656,2220 656,2280 727,2280 727,2220"/>
+                    <TextEquiv>
+                        <Unicode>tuos</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_16_w4" custom="readingOrder {index:3;}">
+                    <Coords points="771,2220 771,2280 909,2280 909,2220"/>
+                    <TextEquiv>
+                        <Unicode>exponit</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_16_w5" custom="readingOrder {index:4;}">
+                    <Coords points="940,2226 940,2286 1090,2286 1090,2226"/>
+                    <TextEquiv>
+                        <Unicode>honores</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Clarisonos philomela tuos exponit honores</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="302,2399 1080,2402 1080,2343 799,2349 712,2317 550,2353 302,2336"/>
+                <Baseline points="310,2391 355,2391 400,2388 444,2388 489,2388 534,2388 579,2388 623,2388 668,2385 713,2385 758,2385 803,2385 847,2388 892,2391 937,2391 982,2391 1027,2391 1071,2394 1083,2394"/>
+                <Word id="r_10_tl_17_w1" custom="readingOrder {index:0;}">
+                    <Coords points="309,2349 309,2409 445,2409 445,2349"/>
+                    <TextEquiv>
+                        <Unicode>Arbor!</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_17_w2" custom="readingOrder {index:1;}">
+                    <Coords points="470,2348 470,2408 547,2408 547,2348"/>
+                    <TextEquiv>
+                        <Unicode>mox</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_17_w3" custom="readingOrder {index:2;}">
+                    <Coords points="583,2346 583,2406 713,2406 713,2346"/>
+                    <TextEquiv>
+                        <Unicode>vmbras</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_17_w4" custom="readingOrder {index:3;}">
+                    <Coords points="756,2348 756,2408 945,2408 945,2348"/>
+                    <TextEquiv>
+                        <Unicode>explicitura</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_17_w5" custom="readingOrder {index:4;}">
+                    <Coords points="976,2351 976,2411 1064,2411 1064,2351"/>
+                    <TextEquiv>
+                        <Unicode>suas.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Arbor! mox vmbras explicitura suas.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="186,2532 1119,2541 1109,2456 188,2477"/>
+                <Baseline points="194,2525 238,2525 283,2522 328,2522 373,2522 417,2519 462,2519 507,2519 552,2519 597,2519 641,2519 686,2519 731,2516 776,2516 821,2516 865,2516 910,2516 955,2516 1000,2519 1044,2519 1089,2522 1122,2525"/>
+                <Word id="r_10_tl_18_w1" custom="readingOrder {index:0;}">
+                    <Coords points="201,2482 201,2542 361,2542 361,2482"/>
+                    <TextEquiv>
+                        <Unicode>Flexibus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_18_w2" custom="readingOrder {index:1;}">
+                    <Coords points="394,2479 394,2539 548,2539 548,2479"/>
+                    <TextEquiv>
+                        <Unicode>obliquis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_18_w3" custom="readingOrder {index:2;}">
+                    <Coords points="575,2479 575,2539 651,2539 651,2479"/>
+                    <TextEquiv>
+                        <Unicode>vaga</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_18_w4" custom="readingOrder {index:3;}">
+                    <Coords points="691,2476 691,2536 806,2536 806,2476"/>
+                    <TextEquiv>
+                        <Unicode>nuntia</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_18_w5" custom="readingOrder {index:4;}">
+                    <Coords points="839,2476 839,2536 922,2536 922,2476"/>
+                    <TextEquiv>
+                        <Unicode>veris</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_18_w6" custom="readingOrder {index:5;}">
+                    <Coords points="962,2479 962,2539 1096,2539 1096,2479"/>
+                    <TextEquiv>
+                        <Unicode>hirundo</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Flexibus obliquis vaga nuntia veris hirundo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="300,2673 889,2643 1159,2681 1159,2600 1102,2584 428,2624 300,2587"/>
+                <Baseline points="307,2648 352,2648 397,2651 441,2651 486,2651 531,2651 576,2651 620,2648 665,2648 710,2648 755,2645 800,2642 844,2642 889,2642 934,2648 979,2648 1024,2651 1068,2651 1113,2651 1158,2648 1161,2648"/>
+                <Word id="r_10_tl_19_w1" custom="readingOrder {index:0;}">
+                    <Coords points="308,2608 308,2668 422,2668 422,2608"/>
+                    <TextEquiv>
+                        <Unicode>Errat,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_19_w2" custom="readingOrder {index:1;}">
+                    <Coords points="447,2611 447,2671 482,2671 482,2611"/>
+                    <TextEquiv>
+                        <Unicode>et</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_19_w3" custom="readingOrder {index:2;}">
+                    <Coords points="513,2611 513,2671 549,2671 549,2611"/>
+                    <TextEquiv>
+                        <Unicode>ad</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_19_w4" custom="readingOrder {index:3;}">
+                    <Coords points="599,2608 599,2668 701,2668 701,2608"/>
+                    <TextEquiv>
+                        <Unicode>notos</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_19_w5" custom="readingOrder {index:4;}">
+                    <Coords points="744,2602 744,2662 852,2662 852,2602"/>
+                    <TextEquiv>
+                        <Unicode>fertur</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_19_w6" custom="readingOrder {index:5;}">
+                    <Coords points="902,2608 902,2668 1010,2668 1010,2608"/>
+                    <TextEquiv>
+                        <Unicode>amica</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_19_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1053,2611 1053,2671 1161,2671 1161,2611"/>
+                    <TextEquiv>
+                        <Unicode>lares.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Errat, et ad notos fertur amica lares.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_10_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="199,2790 953,2777 1086,2807 1086,2742 866,2700 622,2739 199,2740"/>
+                <Baseline points="206,2788 238,2785 283,2785 328,2782 373,2779 417,2779 462,2779 507,2782 552,2779 597,2779 641,2779 686,2776 731,2773 776,2773 821,2773 865,2773 910,2773 955,2773 1000,2776 1044,2779 1089,2782"/>
+                <Word id="r_10_tl_20_w1" custom="readingOrder {index:0;}">
+                    <Coords points="207,2742 207,2802 433,2802 433,2742"/>
+                    <TextEquiv>
+                        <Unicode>Carminibus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_20_w2" custom="readingOrder {index:1;}">
+                    <Coords points="465,2740 465,2800 590,2800 590,2740"/>
+                    <TextEquiv>
+                        <Unicode>lepidis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_20_w3" custom="readingOrder {index:2;}">
+                    <Coords points="616,2737 616,2797 710,2797 710,2737"/>
+                    <TextEquiv>
+                        <Unicode>aures</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_20_w4" custom="readingOrder {index:3;}">
+                    <Coords points="743,2733 743,2793 905,2793 905,2733"/>
+                    <TextEquiv>
+                        <Unicode>demulcet</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_10_tl_20_w5" custom="readingOrder {index:4;}">
+                    <Coords points="931,2736 931,2796 1069,2796 1069,2736"/>
+                    <TextEquiv>
+                        <Unicode>alauda;</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Carminibus lepidis aures demulcet alauda;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_11" custom="readingOrder {index:1;}">
+            <Coords points="1251,288 2332,284 2332,2825 1251,2831"/>
+            <TextLine id="r_11_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="1366,362 1469,351 1574,382 1837,343 2119,352 2117,301 2034,271 1847,313 1619,280 1493,312 1365,296"/>
+                <Baseline points="1373,337 1418,340 1462,340 1507,340 1552,343 1597,343 1642,343 1686,346 1731,346 1776,343 1821,343 1865,343 1910,343 1955,343 2000,343 2045,343 2089,346 2122,346"/>
+                <Word id="r_11_tl_1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1378,298 1378,358 1411,358 1411,298"/>
+                    <TextEquiv>
+                        <Unicode>In</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1447,300 1447,360 1562,360 1562,300"/>
+                    <TextEquiv>
+                        <Unicode>faciles</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_1_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1591,303 1591,363 1683,363 1683,303"/>
+                    <TextEquiv>
+                        <Unicode>nidos</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_1_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1712,304 1712,364 1810,364 1810,304"/>
+                    <TextEquiv>
+                        <Unicode>gleba</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_1_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1845,303 1845,363 1977,363 1977,303"/>
+                    <TextEquiv>
+                        <Unicode>recurva</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_1_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2007,304 2007,364 2116,364 2116,304"/>
+                    <TextEquiv>
+                        <Unicode>venit.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>In faciles nidos gleba recurva venit.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1262,499 1549,471 1647,497 2137,490 2137,430 1906,443 1611,404 1508,438 1261,429"/>
+                <Baseline points="1268,462 1313,468 1358,468 1403,468 1447,468 1492,468 1537,468 1582,471 1627,474 1671,474 1716,474 1761,474 1806,474 1851,474 1895,474 1940,474 1985,474 2030,474 2074,474 2119,477 2140,477"/>
+                <Word id="r_11_tl_2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1275,428 1275,488 1370,488 1370,428"/>
+                    <TextEquiv>
+                        <Unicode>Sucta</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_2_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1413,428 1413,488 1486,488 1486,428"/>
+                    <TextEquiv>
+                        <Unicode>lege</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_2_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1529,430 1529,490 1613,490 1613,430"/>
+                    <TextEquiv>
+                        <Unicode>redit</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_2_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1643,434 1643,494 1794,494 1794,434"/>
+                    <TextEquiv>
+                        <Unicode>consulta</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_2_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1837,434 1837,494 1964,494 1964,434"/>
+                    <TextEquiv>
+                        <Unicode>ciconia</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_2_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1995,434 1995,494 2127,494 2127,434"/>
+                    <TextEquiv>
+                        <Unicode>nutrix,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Sucta lege redit consulta ciconia nutrix,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1375,604 2150,613 2149,565 2081,554 1903,575 1697,545 1651,570 1374,550"/>
+                <Baseline points="1382,597 1427,597 1471,597 1516,597 1561,597 1606,597 1650,597 1695,597 1740,600 1785,600 1830,600 1874,603 1919,603 1964,603 2009,603 2054,606 2098,603 2143,603 2152,606"/>
+                <Word id="r_11_tl_3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1379,557 1379,617 1532,617 1532,557"/>
+                    <TextEquiv>
+                        <Unicode>Latranti</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1560,557 1560,617 1728,617 1728,557"/>
+                    <TextEquiv>
+                        <Unicode>stomacho</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_3_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1767,560 1767,620 1877,620 1877,560"/>
+                    <TextEquiv>
+                        <Unicode>rustica</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_3_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1921,563 1921,623 1989,623 1989,563"/>
+                    <TextEquiv>
+                        <Unicode>iura</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_3_w5" custom="readingOrder {index:4;}">
+                    <Coords points="2021,564 2021,624 2142,624 2142,564"/>
+                    <TextEquiv>
+                        <Unicode>citans.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Latranti stomacho rustica iura citans.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="1279,731 1546,771 1906,731 2263,757 2263,687 2224,681 1450,698 1279,661"/>
+                <Baseline points="1286,725 1331,728 1376,728 1421,728 1465,728 1510,725 1555,728 1600,725 1645,725 1689,725 1734,725 1779,728 1824,728 1868,731 1913,731 1958,731 2003,731 2048,734 2092,734 2137,734 2182,734 2227,734 2266,731"/>
+                <Word id="r_11_tl_4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1288,688 1288,748 1420,748 1420,688"/>
+                    <TextEquiv>
+                        <Unicode>Gutture</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1454,685 1454,745 1586,745 1586,685"/>
+                    <TextEquiv>
+                        <Unicode>iamqve</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_4_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1614,685 1614,745 1686,745 1686,685"/>
+                    <TextEquiv>
+                        <Unicode>cauo</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_4_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1720,688 1720,748 1892,748 1892,688"/>
+                    <TextEquiv>
+                        <Unicode>dissyllaba</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_4_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1933,691 1933,751 2059,751 2059,691"/>
+                    <TextEquiv>
+                        <Unicode>cantica</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_4_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2093,694 2093,754 2251,754 2251,694"/>
+                    <TextEquiv>
+                        <Unicode>plaudens</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Gutture iamqve cauo dissyllaba cantica plaudens</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1378,907 1580,866 1649,902 1806,867 2211,870 2190,825 1946,798 1911,825 1709,802 1621,832 1557,797 1378,802"/>
+                <Baseline points="1385,862 1430,859 1474,862 1519,862 1564,859 1609,859 1653,856 1698,856 1743,856 1788,853 1833,853 1877,853 1922,853 1967,856 2012,856 2057,859 2101,862 2146,862 2191,862 2215,862"/>
+                <Word id="r_11_tl_5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1388,819 1388,879 1454,879 1454,819"/>
+                    <TextEquiv>
+                        <Unicode>Qvi</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1482,820 1482,880 1603,880 1603,820"/>
+                    <TextEquiv>
+                        <Unicode>repetit</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_5_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1631,816 1631,876 1786,876 1786,816"/>
+                    <TextEquiv>
+                        <Unicode>cuculus,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_5_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1814,813 1814,873 1955,873 1955,813"/>
+                    <TextEquiv>
+                        <Unicode>degener</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_5_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1990,817 1990,877 2077,877 2077,817"/>
+                    <TextEquiv>
+                        <Unicode>ales,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_5_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2098,822 2098,882 2205,882 2205,822"/>
+                    <TextEquiv>
+                        <Unicode>adest.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Qvi repetit cuculus, degener ales, adest.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="1267,1068 1711,1018 2313,1039 2313,939 2224,962 2107,914 1267,933"/>
+                <Baseline points="1274,982 1319,985 1364,988 1409,988 1453,988 1498,991 1543,988 1588,988 1633,985 1677,985 1722,985 1767,985 1812,982 1857,982 1901,982 1946,982 1991,982 2036,982 2080,985 2125,985 2170,988 2215,988 2260,991 2304,991 2316,991"/>
+                <Word id="r_11_tl_6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1279,946 1279,1006 1402,1006 1402,946"/>
+                    <TextEquiv>
+                        <Unicode>Incola</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_6_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1426,949 1426,1009 1538,1009 1538,949"/>
+                    <TextEquiv>
+                        <Unicode>segnis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_6_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1573,945 1573,1005 1674,1005 1674,945"/>
+                    <TextEquiv>
+                        <Unicode>aqvae</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_6_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1709,943 1709,1003 1867,1003 1867,943"/>
+                    <TextEquiv>
+                        <Unicode>streperis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_6_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1903,942 1903,1002 1958,1002 1958,942"/>
+                    <TextEquiv>
+                        <Unicode>dum</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_6_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2016,945 2016,1005 2173,1005 2173,945"/>
+                    <TextEquiv>
+                        <Unicode>faucibus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_6_w7" custom="readingOrder {index:6;}">
+                    <Coords points="2197,950 2197,1010 2297,1010 2297,950"/>
+                    <TextEquiv>
+                        <Unicode>exstar</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Incola segnis aqvae streperis dum faucibus exstar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="1360,1113 1790,1164 1854,1128 2160,1130 2160,1081 2107,1052 2013,1087 1898,1059 1763,1083 1686,1053 1570,1090 1360,1078"/>
+                <Baseline points="1367,1110 1412,1110 1456,1113 1501,1113 1546,1113 1591,1113 1636,1113 1680,1113 1725,1113 1770,1113 1815,1110 1859,1110 1904,1110 1949,1110 1994,1110 2039,1110 2083,1110 2128,1110 2164,1113"/>
+                <Word id="r_11_tl_7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1368,1072 1368,1132 1543,1132 1543,1072"/>
+                    <TextEquiv>
+                        <Unicode>Discrepat</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_7_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1575,1073 1575,1133 1711,1133 1711,1073"/>
+                    <TextEquiv>
+                        <Unicode>alternis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_7_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1737,1070 1737,1130 1874,1130 1874,1070"/>
+                    <TextEquiv>
+                        <Unicode>garrula</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_7_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1906,1070 1906,1130 1980,1130 1980,1070"/>
+                    <TextEquiv>
+                        <Unicode>rana</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_7_w5" custom="readingOrder {index:4;}">
+                    <Coords points="2012,1070 2012,1130 2149,1130 2149,1070"/>
+                    <TextEquiv>
+                        <Unicode>modis.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Discrepat alternis garrula rana modis.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1261,1259 1598,1244 1673,1284 1746,1254 2149,1250 2149,1190 2095,1184 1261,1193"/>
+                <Baseline points="1268,1236 1313,1236 1358,1238 1403,1238 1447,1238 1492,1238 1537,1238 1582,1238 1627,1238 1671,1238 1716,1238 1761,1238 1806,1238 1851,1238 1895,1238 1940,1238 1985,1241 2030,1241 2074,1238 2119,1236 2152,1236"/>
+                <Word id="r_11_tl_8_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1276,1197 1276,1257 1419,1257 1419,1197"/>
+                    <TextEquiv>
+                        <Unicode>Provida</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_8_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1457,1198 1457,1258 1600,1258 1600,1198"/>
+                    <TextEquiv>
+                        <Unicode>gallinae</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_8_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1632,1198 1632,1258 1832,1258 1832,1198"/>
+                    <TextEquiv>
+                        <Unicode>glocitantis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_8_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1864,1198 1864,1258 2014,1258 2014,1198"/>
+                    <TextEquiv>
+                        <Unicode>tegmina</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_8_w5" custom="readingOrder {index:4;}">
+                    <Coords points="2046,1197 2046,1257 2133,1257 2133,1197"/>
+                    <TextEquiv>
+                        <Unicode>pulli</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Provida gallinae glocitantis tegmina pulli</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="1366,1386 2164,1382 2164,1326 2133,1318 1876,1345 1829,1319 1366,1319"/>
+                <Baseline points="1373,1367 1418,1367 1462,1370 1507,1370 1552,1367 1597,1367 1642,1367 1686,1367 1731,1367 1776,1367 1821,1367 1865,1367 1910,1367 1955,1367 2000,1367 2045,1367 2089,1367 2134,1367 2167,1367"/>
+                <Word id="r_11_tl_9_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1372,1329 1372,1389 1538,1389 1538,1329"/>
+                    <TextEquiv>
+                        <Unicode>Consensu</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_9_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1572,1327 1572,1387 1705,1387 1705,1327"/>
+                    <TextEquiv>
+                        <Unicode>qverulo</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_9_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1739,1327 1739,1387 1850,1387 1850,1327"/>
+                    <TextEquiv>
+                        <Unicode>territa</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_9_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1895,1327 1895,1387 1983,1387 1983,1327"/>
+                    <TextEquiv>
+                        <Unicode>turba</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_9_w5" custom="readingOrder {index:4;}">
+                    <Coords points="2017,1327 2017,1387 2150,1387 2150,1327"/>
+                    <TextEquiv>
+                        <Unicode>petunt.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Consensu qverulo territa turba petunt.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="1267,1536 2310,1514 2310,1463 2232,1445 2151,1473 1726,1426 1549,1478 1267,1445"/>
+                <Baseline points="1274,1501 1319,1501 1364,1504 1409,1504 1453,1504 1498,1507 1543,1504 1588,1504 1633,1504 1677,1504 1722,1501 1767,1501 1812,1504 1857,1501 1901,1501 1946,1504 1991,1504 2036,1501 2080,1501 2125,1504 2170,1504 2215,1504 2260,1504 2304,1501 2313,1504"/>
+                <Word id="r_11_tl_10_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1276,1462 1276,1522 1402,1522 1402,1462"/>
+                    <TextEquiv>
+                        <Unicode>Rustica</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_10_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1442,1466 1442,1526 1528,1526 1528,1466"/>
+                    <TextEquiv>
+                        <Unicode>gens</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_10_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1569,1464 1569,1524 1714,1524 1714,1464"/>
+                    <TextEquiv>
+                        <Unicode>vigilans</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_10_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1748,1462 1748,1522 1827,1522 1827,1462"/>
+                    <TextEquiv>
+                        <Unicode>pars</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_10_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1854,1462 1854,1522 1979,1522 1979,1462"/>
+                    <TextEquiv>
+                        <Unicode>frangit</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_10_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2020,1461 2020,1521 2152,1521 2152,1461"/>
+                    <TextEquiv>
+                        <Unicode>vomere</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_10_w7" custom="readingOrder {index:6;}">
+                    <Coords points="2186,1464 2186,1524 2291,1524 2291,1464"/>
+                    <TextEquiv>
+                        <Unicode>sulcos</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Rustica gens vigilans pars frangit vomere sulcos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="1362,1648 2093,1678 2257,1644 2255,1562 2055,1601 1673,1601 1559,1564 1361,1589"/>
+                <Baseline points="1370,1621 1415,1624 1459,1627 1504,1627 1549,1627 1594,1627 1639,1627 1683,1627 1728,1627 1773,1627 1818,1630 1862,1630 1907,1630 1952,1630 1997,1630 2042,1630 2086,1633 2131,1633 2176,1633 2221,1633 2260,1636"/>
+                <Word id="r_11_tl_11_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1373,1586 1373,1646 1532,1646 1532,1586"/>
+                    <TextEquiv>
+                        <Unicode>Semina,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_11_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1564,1587 1564,1647 1639,1647 1639,1587"/>
+                    <TextEquiv>
+                        <Unicode>spem</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_11_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1686,1587 1686,1647 1799,1647 1799,1587"/>
+                    <TextEquiv>
+                        <Unicode>messis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_11_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1824,1590 1824,1650 1899,1650 1899,1590"/>
+                    <TextEquiv>
+                        <Unicode>pars</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_11_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1923,1590 1923,1650 2028,1650 2028,1590"/>
+                    <TextEquiv>
+                        <Unicode>locat,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_11_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2052,1593 2052,1653 2127,1653 2127,1593"/>
+                    <TextEquiv>
+                        <Unicode>apta</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_11_w7" custom="readingOrder {index:6;}">
+                    <Coords points="2151,1593 2151,1653 2242,1653 2242,1593"/>
+                    <TextEquiv>
+                        <Unicode>solo,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Semina, spem messis pars locat, apta solo,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="1252,1827 1480,1795 2274,1821 2274,1703 2172,1722 2005,1657 1827,1713 1252,1677"/>
+                <Baseline points="1259,1749 1304,1749 1349,1749 1394,1749 1439,1749 1483,1749 1528,1749 1573,1749 1618,1746 1662,1746 1707,1746 1752,1746 1797,1746 1842,1746 1886,1749 1931,1749 1976,1749 2021,1749 2065,1752 2110,1752 2155,1752 2200,1755 2245,1755 2277,1758"/>
+                <Word id="r_11_tl_12_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1272,1709 1272,1769 1332,1769 1332,1709"/>
+                    <TextEquiv>
+                        <Unicode>Per</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_12_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1364,1709 1364,1769 1475,1769 1475,1709"/>
+                    <TextEquiv>
+                        <Unicode>sylvas</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_12_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1507,1708 1507,1768 1648,1768 1648,1708"/>
+                    <TextEquiv>
+                        <Unicode>pecudes</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_12_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1680,1706 1680,1766 1822,1766 1822,1706"/>
+                    <TextEquiv>
+                        <Unicode>errant,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_12_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1843,1707 1843,1767 1873,1767 1873,1707"/>
+                    <TextEquiv>
+                        <Unicode>in</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_12_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1915,1709 1915,1769 2087,1769 2087,1709"/>
+                    <TextEquiv>
+                        <Unicode>montibus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_12_w7" custom="readingOrder {index:6;}">
+                    <Coords points="2119,1713 2119,1773 2240,1773 2240,1713"/>
+                    <TextEquiv>
+                        <Unicode>agnae;</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Per sylvas pecudes errant, in montibus agnae;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="1366,1888 1493,1913 1546,1888 2271,1890 2232,1837 2098,1840 2052,1806 1781,1854 1640,1808 1585,1837 1366,1827"/>
+                <Baseline points="1373,1880 1418,1880 1462,1880 1507,1883 1552,1880 1597,1880 1642,1880 1686,1880 1731,1880 1776,1880 1821,1880 1865,1880 1910,1880 1955,1880 2000,1877 2045,1880 2089,1880 2134,1880 2179,1880 2224,1880 2269,1883 2274,1886"/>
+                <Word id="r_11_tl_13_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1373,1840 1373,1900 1511,1900 1511,1840"/>
+                    <TextEquiv>
+                        <Unicode>Tityrus</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_13_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1552,1840 1552,1900 1580,1900 1580,1840"/>
+                    <TextEquiv>
+                        <Unicode>et</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_13_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1615,1840 1615,1900 1742,1900 1742,1840"/>
+                    <TextEquiv>
+                        <Unicode>calamo</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_13_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1783,1840 1783,1900 1927,1900 1927,1840"/>
+                    <TextEquiv>
+                        <Unicode>carmina</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_13_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1962,1838 1962,1898 2077,1898 2077,1838"/>
+                    <TextEquiv>
+                        <Unicode>miscet</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_13_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2112,1840 2112,1900 2244,1900 2244,1840"/>
+                    <TextEquiv>
+                        <Unicode>amans,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Tityrus et calamo carmina miscet amans,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="1263,2030 1374,2061 2158,2036 2158,1965 1263,1967"/>
+                <Baseline points="1271,2006 1316,2009 1361,2009 1406,2012 1450,2012 1495,2012 1540,2012 1585,2009 1630,2009 1674,2009 1719,2009 1764,2012 1809,2012 1854,2009 1898,2009 1943,2009 1988,2009 2033,2009 2077,2009 2122,2006 2161,2006"/>
+                <Word id="r_11_tl_14_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1272,1969 1272,2029 1444,2029 1444,1969"/>
+                    <TextEquiv>
+                        <Unicode>Tempore</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_14_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1471,1972 1471,2032 1522,2032 1522,1972"/>
+                    <TextEquiv>
+                        <Unicode>tam</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_14_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1575,1969 1575,2029 1670,2029 1670,1969"/>
+                    <TextEquiv>
+                        <Unicode>suavi</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_14_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1697,1970 1697,2030 1799,2030 1799,1970"/>
+                    <TextEquiv>
+                        <Unicode>tristes</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_14_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1838,1969 1838,2029 1992,2029 1992,1969"/>
+                    <TextEquiv>
+                        <Unicode>discedite</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_14_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2025,1968 2025,2028 2140,2028 2140,1968"/>
+                    <TextEquiv>
+                        <Unicode>curae!</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Tempore tam suavi tristes discedite curae!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="1362,2189 1718,2175 1830,2210 1988,2171 2130,2186 2130,2074 1889,2113 1634,2106 1571,2073 1439,2109 1362,2082"/>
+                <Baseline points="1370,2140 1415,2140 1459,2137 1504,2137 1549,2137 1594,2140 1639,2140 1683,2137 1728,2137 1773,2137 1818,2137 1862,2140 1907,2140 1952,2140 1997,2143 2042,2140 2086,2143 2131,2140 2134,2140"/>
+                <Word id="r_11_tl_15_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1379,2098 1379,2158 1481,2158 1481,2098"/>
+                    <TextEquiv>
+                        <Unicode>Vroye</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_15_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1510,2097 1510,2157 1613,2157 1613,2097"/>
+                    <TextEquiv>
+                        <Unicode>Polo,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_15_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1632,2097 1632,2157 1744,2157 1744,2097"/>
+                    <TextEquiv>
+                        <Unicode>menti</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_15_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1773,2097 1773,2157 1875,2157 1875,2097"/>
+                    <TextEquiv>
+                        <Unicode>rideat</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_15_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1904,2100 1904,2160 1987,2160 1987,2100"/>
+                    <TextEquiv>
+                        <Unicode>alma</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_15_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2016,2102 2016,2162 2128,2162 2128,2102"/>
+                    <TextEquiv>
+                        <Unicode>dies!.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Vroye Polo, menti rideat alma dies!.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="1327,2482 2301,2484 2279,2400 1523,2407 1327,2347"/>
+                <Baseline points="1334,2454 1364,2451 1409,2451 1453,2451 1498,2448 1543,2448 1588,2448 1633,2445 1677,2448 1722,2448 1767,2451 1812,2451 1857,2451 1901,2451 1946,2451 1991,2448 2036,2448 2080,2451 2125,2451 2170,2451 2215,2451 2260,2451 2304,2451"/>
+                <Word id="r_11_tl_16_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1343,2410 1343,2470 1586,2470 1586,2410"/>
+                    <TextEquiv>
+                        <Unicode>Bescheidnes</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_16_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1621,2409 1621,2469 1882,2469 1882,2409"/>
+                    <TextEquiv>
+                        <Unicode>Königsberg!</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_16_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1944,2408 1944,2468 2021,2468 2021,2408"/>
+                    <TextEquiv>
+                        <Unicode>darf</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_16_w4" custom="readingOrder {index:3;}">
+                    <Coords points="2075,2411 2075,2471 2135,2471 2135,2411"/>
+                    <TextEquiv>
+                        <Unicode>sich</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_16_w5" custom="readingOrder {index:4;}">
+                    <Coords points="2205,2411 2205,2471 2274,2471 2274,2411"/>
+                    <TextEquiv>
+                        <Unicode>dein</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Bescheidnes Königsberg! darf sich dein</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="1760,2575 1884,2555 1967,2574 2102,2553 2190,2566 2190,2514 2126,2489 1966,2515 1760,2499"/>
+                <Baseline points="1767,2549 1812,2549 1857,2549 1901,2549 1946,2549 1991,2549 2036,2546 2080,2549 2125,2549 2170,2549 2194,2549"/>
+                <Word id="r_11_tl_17_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1768,2509 1768,2569 1964,2569 1964,2509"/>
+                    <TextEquiv>
+                        <Unicode>Werner</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_17_w2" custom="readingOrder {index:1;}">
+                    <Coords points="2015,2509 2015,2569 2160,2569 2160,2509"/>
+                    <TextEquiv>
+                        <Unicode>schämen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Werner schämen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="1254,2714 2296,2712 2295,2631 1253,2632"/>
+                <Baseline points="1262,2675 1307,2678 1352,2678 1397,2678 1442,2675 1486,2675 1531,2672 1576,2675 1621,2675 1665,2675 1710,2678 1755,2675 1800,2675 1845,2675 1889,2675 1934,2672 1979,2675 2024,2675 2068,2678 2113,2681 2158,2681 2203,2681 2248,2681 2292,2678 2298,2678"/>
+                <Word id="r_11_tl_18_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1258,2637 1258,2697 1334,2697 1334,2637"/>
+                    <TextEquiv>
+                        <Unicode>Die</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_18_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1373,2635 1373,2695 1496,2695 1496,2635"/>
+                    <TextEquiv>
+                        <Unicode>Stelle</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_18_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1543,2635 1543,2695 1696,2695 1696,2635"/>
+                    <TextEquiv>
+                        <Unicode>zwischen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_18_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1751,2635 1751,2695 1896,2695 1896,2635"/>
+                    <TextEquiv>
+                        <Unicode>Kleist</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_18_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1928,2633 1928,2693 1988,2693 1988,2633"/>
+                    <TextEquiv>
+                        <Unicode>und</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r_11_tl_18_w6" custom="readingOrder {index:5;}">
+                    <Coords points="2043,2641 2043,2701 2273,2701 2273,2641"/>
+                    <TextEquiv>
+                        <Unicode>Thomson</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Die Stelle zwischen Kleist und Thomson</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r_11_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="1750,2806 1799,2789 1825,2799 1931,2787 1946,2800 1976,2785 2063,2795 2063,2720 1999,2735 1919,2714 1870,2730 1815,2720 1751,2742"/>
+                <Baseline points="1758,2773 1803,2776 1848,2776 1892,2776 1937,2776 1982,2776 2027,2773 2065,2776"/>
+                <Word id="r_11_tl_19_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1758,2736 1758,2796 2040,2796 2040,2736"/>
+                    <TextEquiv>
+                        <Unicode>einzunehmen?</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>einzunehmen?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

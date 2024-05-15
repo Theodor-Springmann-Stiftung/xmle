@@ -74,6 +74,18 @@
         <url address="http://ds.ub.uni-bielefeld.de/viewer/toc/1921386/0/LOG_0000/">UB Bielefeld</url>
     </werk>
 
+    <werk id="silberschlag-feuerkugel">
+        <autor ref="silberschlag" />
+        <zitation>Theorie der am 23. Julii, 1762 erschienenen Feuer-Kugel. Abgehandelt von Johann Esaias Silberschlag (Magdeburg, Stendal, Leipzig 1764).</zitation>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10058735-2">BSB München</url>
+    </werk>
+
+    <werk id="hirzel-bauer">
+        <autor ref="hirzel" />
+        <zitation>Die Wirthschaft eines philosophischen Bauers. Entworfen von H. C. Hirzel (Zürich: Heidegger und Compagnie 1761).
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10295965-9">BSB München</url>
+    </werk>
+
     <werk id="">
         <autor ref="" />
         <zitation></zitation>
