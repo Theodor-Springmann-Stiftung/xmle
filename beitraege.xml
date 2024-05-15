@@ -160,9 +160,9 @@
         <stueck jahr="1764" nr="9" von="34" bis="35" />
         <datum when="1764-03-02"></datum>
         <ort ref="berlin" />
+        <kategorie ref="rezension" />
 		<kategorie ref="gedicht" />
 		<autor ref="lenov" />
-        <kategorie ref="rezension" />
         <autor ref="hamann" unsicher="true" />
 		<rezensiert ref="lenov-gedichte"/>
     </beitrag>
@@ -267,8 +267,8 @@
 		<ort ref="berlin" />
         <kategorie ref="aufsatz" />
 		<kategorie ref="brief" />
+        <autor ref="winckelmann" />
 		<titel>Leben und Wunder des Herrn Johann Winckelmanns</titel>
-		<autor ref="winckelmann" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="13" von="51" bis="52" />

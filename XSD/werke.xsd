@@ -31,7 +31,7 @@
                                 </xsd:annotation>
                                 <xsd:complexType>
                                     <xsd:simpleContent>
-                                        <xsd:extension base="kgpz:NonEmptyString">
+                                        <xsd:extension base="xsd:string">
                                             <xsd:attribute name="address" type="xsd:anyURI">
                                                 <xsd:annotation>
                                                     <xsd:documentation>Pflicht: Die URL zum Werk.</xsd:documentation>
