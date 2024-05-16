@@ -39,7 +39,7 @@
     </xsd:annotation>
     <xsd:simpleContent>
       <xsd:extension base="kgpz:ref">
-        <xsd:attribute name="kat" use="optional" default="erwähnung">
+        <xsd:attribute name="kat" use="required" >
           <xsd:annotation>
             <xsd:documentation>
               Die Art der Beziehung zum Werk. Werte: rezension, auszug, kommentar, erwähnung
@@ -80,6 +80,31 @@
               <xsd:enumeration value="drucker" />
               <xsd:enumeration value="vertrieb" />
               <xsd:enumeration value="erwähnung" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+
+  <xsd:complexType name="ortref">
+    <xsd:annotation>
+      <xsd:documentation>
+        Bezieht sich auf einen Akteur und qualifiziert diese Beziehung.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="kgpz:ref">
+        <xsd:attribute name="kat" use="optional" default="entstehungsort">
+          <xsd:annotation>
+            <xsd:documentation>
+              Die Art der Beziehung zum Akteur. Werte: erwähnt, autor, herausgeber, verleger, drucker, vertrieb. 
+            </xsd:documentation>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="entstehungsort" />
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:attribute>

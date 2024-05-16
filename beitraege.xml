@@ -20,7 +20,7 @@
 
         <!-- VERWEISE -->
         <ort ref="ort">Die Zuordung eines Beitrags zu einem Ort kann annotiert werden</ort>
-        <akteur ref="akteur">Die Zuordnung eines Beitrags zu einem akteur kann annotiert werden</akteur>
+        <akteur ref="akteur">Die Zuordnung eines Beitrags zu einem Akteur kann annotiert werden</akteur>
         <!-- oder auch nicht: -->
         <akteur ref="einstein" />
         <werk ref="werk" kat="rezension">Auch die Zuordnung zu einer Werkrezension kann annotiert werden</werk>

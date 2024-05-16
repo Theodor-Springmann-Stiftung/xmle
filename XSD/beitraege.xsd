@@ -167,7 +167,7 @@
             </xsd:element>
 
 
-            <xsd:element name="ort" minOccurs="0" maxOccurs="unbounded" type="kgpz:ref">
+            <xsd:element name="ort" minOccurs="0" maxOccurs="unbounded" type="kgpz:ortref">
                 <xsd:annotation>
                     <xsd:documentation>Optional: Der Ort, welcher im Beitrag angegeben ist.</xsd:documentation>
                 </xsd:annotation>
