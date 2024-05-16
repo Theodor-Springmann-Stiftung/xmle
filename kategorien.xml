@@ -46,6 +46,16 @@
 	<kategorie id="rezension">
         <name>Rezension</name>
     </kategorie>
+
+    <kategorie id="kommentar">
+        <name>Kommentar</name>
+        <vermerk>Ein kleiner Kommentar zu einem Werk, oftmals einen Auszug begleitend.</vermerk>
+    </kategorie>
+
+    <kategorie id="auszug">
+        <name>Auszug</name>
+        <vermerk>Ein kurzer Auszug aus einem Werk.</vermerk>
+    </kategorie>
 	
 	<kategorie id="aufsatz">
         <name>Aufsatz</name>

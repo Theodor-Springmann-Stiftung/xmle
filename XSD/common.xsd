@@ -31,6 +31,62 @@
     </xsd:simpleContent>
   </xsd:complexType>
 
+  <xsd:complexType name="werkref">
+    <xsd:annotation>
+      <xsd:documentation>
+        Bezieht sich auf ein Werk und qualifiziert diese Beziehung.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="kgpz:ref">
+        <xsd:attribute name="kat" use="optional" default="erwähnung">
+          <xsd:annotation>
+            <xsd:documentation>
+              Die Art der Beziehung zum Werk. Werte: rezension, auszug, kommentar, erwähnung
+            </xsd:documentation>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="erwähnung" />
+              <xsd:enumeration value="rezension" />
+              <xsd:enumeration value="auszug" />
+              <xsd:enumeration value="kommentar" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="akteurref">
+    <xsd:annotation>
+      <xsd:documentation>
+        Bezieht sich auf einen Akteur und qualifiziert diese Beziehung.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="kgpz:ref">
+        <xsd:attribute name="kat" use="optional" default="autor">
+          <xsd:annotation>
+            <xsd:documentation>
+              Die Art der Beziehung zum Akteur. Werte: erwähnt, autor, herausgeber, verleger, drucker, vertrieb. 
+            </xsd:documentation>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="autor" />
+              <xsd:enumeration value="herausgeber" />
+              <xsd:enumeration value="verleger" />
+              <xsd:enumeration value="drucker" />
+              <xsd:enumeration value="vertrieb" />
+              <xsd:enumeration value="erwähnung" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:attribute>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
   <!-- This section is almost exactly as in TEI -->
   <xsd:attributeGroup name="dateattributes">
     <xsd:attributeGroup ref="kgpz:when"/>

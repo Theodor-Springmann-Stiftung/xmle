@@ -3,134 +3,126 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.koenigsberger-zeitungen.de XSD/KGPZ.xsd">
     <beitrag>
-        <!-- Notwendig sind: 
-            - <beilage jahr="" nummer="" zaehlung=""> oder <stueck jahr="" nr="" von="">
-            - <kategorie ref="">
-            -->
         <!-- Beispiel für einen Beitrag in zwei Stücken -->
         <!-- Das bis-Attribut ist erforderlich falls der Beitrag Seitengrenzen überschreitet -->
+        <!-- Es kann mehrere Kategorien geben -->
         <stueck jahr="1752" nr="23" von="2" bis="3" />
         <stueck jahr="1799" nr="12" von="5" />
-        <!-- Zugelasssen sind die Attribute when, from, to, notBefore, notAfter -->
-        <datum when="1762-12-12"></datum>
-        <ort ref="ort">Die Zuordung eines Beitrags zu einem Ort kann annotiert werden</ort>
-        <!-- Es kann mehrere Orte, Kategorien oder Autoren geben: -->
         <kategorie ref="kategorie" />
         <kategorie ref="kategorie2" />
-        <autor ref="autor">Die Zuordnung eines Beitrags zu einem Autor kann annotiert werden</autor>
-        <!-- oder auch nicht: -->
-        <autor ref="einstein" />
-        <titel>Was</titel>
+
+        <!-- TRANSKRIPTIONEN -->
+        <!-- Zugelasssen sind die Attribute when, from, to, notBefore, notAfter -->
+        <datum when="1762-12-12" />
         <!-- Ein Beitrag kann einen Titel, ein Incipit, beides oder nichts von beiden haben: -->
+        <titel>Was</titel>
         <incipit>Incipit</incipit>
-        <rezensiert ref="werk">Auch die Zuordnung zu einer Werkrezension kann annotiert werden</rezensiert>
+
+        <!-- VERWEISE -->
+        <ort ref="ort">Die Zuordung eines Beitrags zu einem Ort kann annotiert werden</ort>
+        <akteur ref="akteur">Die Zuordnung eines Beitrags zu einem akteur kann annotiert werden</akteur>
+        <!-- oder auch nicht: -->
+        <akteur ref="einstein" />
+        <werk ref="werk" kat="rezension">Auch die Zuordnung zu einer Werkrezension kann annotiert werden</werk>
+
+        <!-- ANMERKUNGEN etc. -->
         <anmerkung>Anmerkung</anmerkung>
         <vermerk>Bearbeitungsvermerk</vermerk>
     </beitrag>
     <beitrag>
         <!-- Beispiel für einen Beitrag in einer Beilage -->
         <beilage jahr="1762" nr="12" beilage="1" />
-        <datum when="1762-12-12"></datum>
-        <ort ref="ort" />
         <kategorie ref="kategorie" />
+
+        <datum when="1762-12-12"/>
+
         <!-- alle Zuordnungen können mit unsicher="true" ausgezeichnet werden, es sich um eine
         Vermutung handelt -->
         <!-- Standardwert ist unsicher="false" -->
-        <autor ref="autor" unsicher="true">Vgl. Herder Brief 1234</autor>
-        <autor ref="weitererautor" />
         <titel>Was</titel>
         <incipit>Incipit</incipit>
+        
+        <ort ref="ort" />
+        <akteur ref="akteur" unsicher="true">Vgl. Herder Brief 1234</akteur>
+        <akteur ref="weitererakteur" />
     </beitrag>
     <beitrag>
         <!-- Minimales Beispiel: -->
         <stueck jahr="1752" nr="23" von="2" bis="3" />
-        <kategorie ref="währungskurse"></kategorie>
     </beitrag>
 
     <beitrag>
         <stueck jahr="1764" nr="1" von="1" bis="2" />
-        <datum when="1764-02-03"/>
-        <ort ref="kgsb" />
         <kategorie ref="ineigenersache" />
-        <autor ref="hamann" />
-        <autor ref="kanter" />
         <incipit>„So sag ers ja den Klugen nicht…</incipit>
+        <ort ref="kgsb" />
+        <akteur ref="hamann" />
+        <akteur ref="kanter" />
         <anmerkung>Programmatisches Vorwort</anmerkung>
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="2" bis="3" />
-        <datum when="1764-02-03"></datum>
         <kategorie ref="panegyrik" />
-        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger Akademie zu dessen Geburtstag</anmerkung>
+        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger
+            Akademie zu dessen Geburtstag</anmerkung>
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="3" bis="4" />
-        <datum when="1764-02-03"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="4" />
-        <datum when="1764-02-03"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="buecher" />
+        <kategorie ref="buecher" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="4" />
-        <datum when="1764-02-03"></datum>
         <kategorie ref="wechselkurse" />
+        <datum when="1764-02-03" />
     </beitrag>
 
     <beitrag>
         <stueck jahr="1764" nr="2" von="5" bis="6" />
-        <datum when="1764-02-06"></datum>
         <ort ref="koeln" />
-        <kategorie ref="rezension" />
-        <autor ref="lauson">vgl. ZH II, 234</autor>
-        <rezensiert ref="philippi-briefe"/>
+        <akteur ref="lauson">vgl. ZH II, 234</akteur>
+        <werk ref="philippi-briefe" kat="rezension" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="6" bis="7" />
-        <datum when="1764-02-06"></datum>
         <ort ref="stpetersburg" />
-        <kategorie ref="rezension" />
-        <autor ref="lindner-jg">vgl. ZH II, 242</autor>
-        <rezensiert ref="buesching-denkmal-stegelmann"/>
+        <akteur ref="lindner-jg">vgl. ZH II, 242</akteur>
+        <werk ref="buesching-denkmal-stegelmann" kat="rezension" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="7" bis="8" />
-        <datum when="1764-02-06"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="2" von="8" />
-        <datum when="1764-02-06"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="buecher" />
+        <kategorie ref="buecher" />
     </beitrag>
 
     <beitrag>
         <stueck jahr="1764" nr="3" von="9" bis="11" />
-        <datum when="1764-02-10"></datum>
-        <ort ref="kgsb" />
         <kategorie ref="aufsatz" />
-        <autor ref="hamann">vgl. ZH II, 235</autor>
+        <ort ref="kgsb" />
+        <akteur ref="hamann">vgl. ZH II, 235</akteur>
         <anmerkung>Über den Ziegenpropheten</anmerkung>
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="3" von="11" bis="12" />
-        <datum when="1764-02-10"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="3" von="12" />
-        <datum when="1764-02-10"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="buecher" />
+        <kategorie ref="buecher" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="3" von="12" />
-        <datum when="1764-02-10"></datum>
         <kategorie ref="wechselkurse" />
+        <datum when="1764-02-10" />
     </beitrag>
 
     <beitrag>
@@ -139,155 +131,129 @@
         <stueck jahr="1764" nr="6" von="21" bis="22" />
         <stueck jahr="1764" nr="7" von="25" bis="26" />
         <stueck jahr="1764" nr="8" von="29" bis="30" />
-        <ort ref="kgsb" />
         <kategorie ref="aufsatz" />
-        <autor ref="kant">vgl. ZH II, 239</autor>
         <titel>Versuch über die Krankheiten des Kopfes</titel>
-        <vermerk>Seitenzahlen der Stücke noch am Original prüfen, ebenso die Beiträge aus Stück 4–8 eintragen, wenn man Scans hat (die sollten auf jeden Fall zu besorgen sein, notfalls in Bremen)</vermerk>
+        <ort ref="kgsb" />
+        <akteur ref="kant">vgl. ZH II, 239</akteur>
+        <vermerk>Seitenzahlen der Stücke noch am Original prüfen, ebenso die Beiträge aus Stück 4–8
+            eintragen, wenn man Scans hat (die sollten auf jeden Fall zu besorgen sein, notfalls in
+            Bremen)</vermerk>
     </beitrag>
 
     <beitrag>
         <stueck jahr="1764" nr="9" von="33" bis="34" />
-        <datum when="1764-03-02"></datum>
         <ort ref="lindau" />
-		<ort ref="frankfurt" />
-		<ort ref="leipzig" />
-        <kategorie ref="rezension" />
-        <autor ref="hamann">vgl. ZH II, 239</autor>
-		<rezensiert ref="ausfuehrliche-kritische-nachrichten"/>
+        <ort ref="frankfurt" />
+        <ort ref="leipzig" />
+        <akteur ref="hamann">vgl. ZH II, 239</akteur>
+        <werk ref="ausfuehrliche-kritische-nachrichten" kat="rezension" />
     </beitrag>
-	<beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="9" von="34" bis="35" />
-        <datum when="1764-03-02"></datum>
+        <kategorie ref="gedicht" />
         <ort ref="berlin" />
-        <kategorie ref="rezension" />
-		<kategorie ref="gedicht" />
-		<autor ref="lenov" />
-        <autor ref="hamann" unsicher="true" />
-		<rezensiert ref="lenov-gedichte"/>
+        <akteur ref="hamann" unsicher="true" />
+        <werk ref="lenov-gedichte" kat="kommentar" />
+        <werk ref="lenov-gedichte" kat="auszug" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="9" von="35" bis="36" />
-        <datum when="1764-03-02"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="9" von="36" />
-        <datum when="1764-03-02"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="buecher" />
+        <kategorie ref="buecher" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="9" von="36" />
-        <datum when="1764-03-02"></datum>
         <kategorie ref="wechselkurse" />
+        <datum when="1764-03-02" />
     </beitrag>
-	
-	<beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="10" von="37" bis="38" />
-        <datum when="1764-03-05"></datum>
         <ort ref="berlin" />
-        <kategorie ref="rezension" />
-        <autor ref="hamann">vgl. ZH II, 239</autor>
-		<rezensiert ref="argens-beytrage"/>
+        <akteur ref="hamann">vgl. ZH II, 239</akteur>
+        <werk ref="argens-beytrage" kat="rezension" />
     </beitrag>
-	<beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="10" von="38" bis="39" />
-        <datum when="1764-03-05"></datum>
         <ort ref="leipzig" />
-        <kategorie ref="rezension" />
-		<rezensiert ref="home-critick"/>
+        <werk ref="home-critick" kat="rezension" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="10" von="39" bis="40" />
-        <datum when="1764-03-05"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="10" von="40" />
-        <datum when="1764-03-05"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="lotterie" />
+        <kategorie ref="lotterie" />
     </beitrag>
-	
-	<beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="11" von="41" bis="42" />
-        <datum when="1764-03-09"></datum>
         <ort ref="berlin" />
-        <kategorie ref="rezension" />
-		<rezensiert ref="karsch-gedichte"/>
+        <werk ref="karsch-gedichte" kat="rezension" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="11" von="43" bis="44" />
-        <datum when="1764-03-09"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="11" von="44" />
-        <datum when="1764-03-09"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="buecher" />
+        <kategorie ref="buecher" />
     </beitrag>
-	
-	<beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="12" von="45" bis="47" />
-        <datum when="1764-03-12"></datum>
         <kategorie ref="gedichte" />
-		<autor ref="karsch" />
+        <akteur ref="karsch" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="12" von="48" />
-        <datum when="1764-03-12"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="12" von="48" />
-        <datum when="1764-03-12"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="lotterie" />
+        <kategorie ref="lotterie" />
     </beitrag>
-	
-	<beitrag>
+
+    <beitrag>
         <stueck jahr="1764" nr="13" von="49" />
-        <datum when="1764-03-16"></datum>
-		<ort ref="berlin" />
-        <kategorie ref="rezension" />
-		<rezensiert ref="nicolai-literaturbriefe"/>
+        <ort ref="berlin" />
+        <werk ref="nicolai-literaturbriefe" kat="rezension" />
     </beitrag>
-	<beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="13" von="49" />
-        <datum when="1764-03-16"></datum>
-		<ort ref="berlin" />
-        <kategorie ref="rezension" />
-		<rezensiert ref="nicolai-literaturbriefe"/>
+        <ort ref="berlin" />
+        <werk ref="nicolai-literaturbriefe" kat="rezension" />
     </beitrag>
-	<beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="13" von="50" bis="51" />
-        <datum when="1764-03-16"></datum>
-		<ort ref="berlin" />
         <kategorie ref="aufsatz" />
-		<kategorie ref="brief" />
-        <autor ref="winckelmann" />
-		<titel>Leben und Wunder des Herrn Johann Winckelmanns</titel>
+        <kategorie ref="brief" />
+        <titel>Leben und Wunder des Herrn Johann Winckelmanns</titel>
+        <ort ref="berlin" />
+        <akteur ref="winckelmann" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="13" von="51" bis="52" />
-        <datum when="1764-03-16"></datum>
         <kategorie ref="weltnachrichten" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="13" von="52" />
-        <datum when="1764-03-16"></datum>
         <kategorie ref="avertissement" />
-		<kategorie ref="buecher" />
+        <kategorie ref="buecher" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="13" von="52" />
-        <datum when="1764-03-16"></datum>
         <kategorie ref="wechselkurse" />
+        <datum when="1764-03-16" />
     </beitrag>
-	
-	
-	
-	
+
+
 </beitraege>
