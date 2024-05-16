@@ -70,6 +70,10 @@
         <name>Brief</name>
     </kategorie>
 	
+	<kategorie id="auszug">
+        <name>Auszug</name>
+    </kategorie>
+	
 	
 	
 </kategorien>

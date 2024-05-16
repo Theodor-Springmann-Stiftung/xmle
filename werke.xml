@@ -74,6 +74,30 @@
         <url address="http://ds.ub.uni-bielefeld.de/viewer/toc/1921386/0/LOG_0000/">UB Bielefeld</url>
     </werk>
 
+    <werk id="silberschlag-feuerkugel">
+        <autor ref="silberschlag" />
+        <zitation>Theorie der am 23. Julii, 1762 erschienenen Feuer-Kugel. Abgehandelt von Johann Esaias Silberschlag (Magdeburg, Stendal, Leipzig 1764).</zitation>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10058735-2">BSB München</url>
+    </werk>
+
+    <werk id="hirzel-bauer">
+        <autor ref="hirzel" />
+        <zitation>Die Wirthschaft eines philosophischen Bauers. Entworfen von H. C. Hirzel (Zürich: Heidegger und Compagnie 1761).
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10295965-9">BSB München</url>
+    </werk>
+
+    <werk id="bertling-berichte">
+        <autor ref="bertling" />
+        <zitation>Theologische Berichte von neuen Büchern und Schriften, von einer Gesellschaft zu Danzig ausgefertigt, hg. von Ernst August Bertling (1764–1769)</zitation>
+        <url address="http://resolver.sub.uni-goettingen.de/purl?PPN727627473">SUB Göttingen</url>
+    </werk>
+
+    <werk id="arnoldt-gedanken">
+        <autor ref="arnoldt" />
+        <zitation>Vernunft- und schriftmäßige Gedanken von den Lebenspflichten der Christen, entworfen von Daniel Heinrich Arnoldt (Königsberg und Leipzig 1764)</zitation>
+        <url address="https://archive.thulb.uni-jena.de/collections/receive/HisBest_cbu_00036720">ULB Jena</url>
+    </werk>
+
     <werk id="">
         <autor ref="" />
         <zitation></zitation>
