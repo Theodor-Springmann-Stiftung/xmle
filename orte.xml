@@ -55,4 +55,99 @@
         <name>Stendal</name>
         <geonames>https://www.geonames.org/6550942</geonames>
     </ort>
+
+    <ort id="danzig">
+        <name>Danzig</name>
+        <geonames>https://www.geonames.org/3099434</geonames>
+    </ort>
+
+    <ort id="halle">
+        <name>Halle</name>
+        <geonames>https://www.geonames.org/2911522</geonames>
+    </ort>
+
+    <ort id="breslau">
+        <name>Breslau</name>
+        <geonames>https://www.geonames.org/3081368</geonames>
+    </ort>
+
+    <ort id="helmstedt">
+        <name>Helmstedt</name>
+        <geonames>https://www.geonames.org/2906676</geonames>
+    </ort>
+
+    <ort id="amsterdam">
+        <name>Amsterdam</name>
+        <geonames>https://www.geonames.org/2759794</geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
+
+    <ort id="">
+        <name></name>
+        <geonames></geonames>
+    </ort>
 </orte>

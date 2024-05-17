@@ -19,138 +19,259 @@
 
     <akteur id="hamann">
         <name>Johann Georg Hamann</name>
-        <sortiername>Hamann, Johann Georg</sortiername>
         <lebensdaten>1730–1788</lebensdaten>
         <gnd>https://d-nb.info/gnd/11854523X</gnd>
     </akteur>
 
     <akteur id="kanter">
         <name>Johann Jakob Kanter</name>
-        <sortiername>Kanter, Johann Jakob</sortiername>
         <lebensdaten>1738–1786</lebensdaten>
         <gnd>https://d-nb.info/gnd/103759972</gnd>
     </akteur>
 
     <akteur id="lauson">
         <name>Johann Friedrich Lauson</name>
-        <sortiername>Lauson, Johann Friedrich</sortiername>
         <lebensdaten>1727–1783</lebensdaten>
         <gnd>https://d-nb.info/gnd/101241054</gnd>
     </akteur>
 
-    <akteur id="philippi-ja">
+    <akteur id="philippi-jo">
         <name>Johann Albrecht Philippi</name>
-        <sortiername>Philippi, Johann Albrecht</sortiername>
         <lebensdaten>1721–1791</lebensdaten>
         <gnd>https://d-nb.info/gnd/115741208</gnd>
     </akteur>
 
     <akteur id="buesching">
         <name>Anton Friedrich Büsching</name>
-        <sortiername>Büsching, Anton Friedrich</sortiername>
         <lebensdaten>1724–1793</lebensdaten>
         <gnd>https://d-nb.info/gnd/119003554</gnd>
     </akteur>
 
     <akteur id="otto-j">
         <name>Jacob Otto</name>
-        <sortiername>Otto, Jacob</sortiername>
         <lebensdaten>Gest. 1788</lebensdaten>
         <gnd>https://d-nb.info/gnd/103753641X</gnd>
     </akteur>
 
     <akteur id="lenov">
         <name>Lenov</name>
-        <sortiername>Lenov</sortiername>
         <lebensdaten>Vorname und Lebensdaten unbekannt, 18. Jh.</lebensdaten>
         <gnd>https://d-nb.info/gnd/138160384</gnd>
     </akteur>
 
     <akteur id="argens">
         <name>Jean-Baptiste de Boyer, Marquis d’Argens</name>
-        <sortiername>Argens, Jean</sortiername>
         <lebensdaten>1703–1771</lebensdaten>
         <gnd>https://d-nb.info/gnd/11865005X</gnd>
     </akteur>
 
     <akteur id="home">
         <name>Henry Home Kames</name>
-        <sortiername>Kames, Henry</sortiername>
         <lebensdaten>1696–1782</lebensdaten>
         <gnd>https://d-nb.info/gnd/118774832</gnd>
     </akteur>
 
     <akteur id="karsch">
         <name>Anna Luisa Karsch</name>
-        <sortiername>Karsch, Anna</sortiername>
         <lebensdaten>1722–1791</lebensdaten>
         <gnd>https://d-nb.info/gnd/118560328</gnd>
     </akteur>
 
     <akteur id="nicolai">
         <name>Friedrich Nicolai</name>
-        <sortiername>Nicolai, Friedrich</sortiername>
         <lebensdaten>1733–1811</lebensdaten>
         <gnd>https://d-nb.info/gnd/118587668</gnd>
     </akteur>
 
     <akteur id="winckelmann">
         <name>Johann Joachim Winckelmann</name>
-        <sortiername>Winckelmann, Johann Joachim</sortiername>
         <lebensdaten>1717–1768</lebensdaten>
         <gnd>https://d-nb.info/gnd/118633600</gnd>
     </akteur>
 
     <akteur id="werner-jg">
         <name>Johann Gottfried von Werner</name>
-        <sortiername>Werner, Johann Gottfried von</sortiername>
         <lebensdaten>1703–1761</lebensdaten>
         <gnd>https://d-nb.info/gnd/1082228885</gnd>
     </akteur>
 
     <akteur id="silberschlag">
         <name>Johann Esaias Silberschlag</name>
-        <sortiername>Silberschlag, Johann Esaias </sortiername>
         <lebensdaten>1721–1791</lebensdaten>
         <gnd>https://d-nb.info/gnd/115360166</gnd>
     </akteur>
 
     <akteur id="hirzel">
         <name>Johann Caspar Hirzel</name>
-        <sortiername>Hirzel, Johann Caspar</sortiername>
         <lebensdaten>1725–1803</lebensdaten>
         <gnd>https://d-nb.info/gnd/119020890</gnd>
     </akteur>
 
     <akteur id="bertling">
         <name>Ernst August Bertling</name>
-        <sortiername>Bertling, Ernst August</sortiername>
         <lebensdaten>1721–1769</lebensdaten>
         <gnd>https://d-nb.info/gnd/116149566</gnd>
     </akteur>
 
     <akteur id="arnoldt">
         <name>Daniel Heinrich Arnoldt</name>
-        <sortiername>Arnoldt, Daniel Heinrich </sortiername>
         <lebensdaten>1706–1775</lebensdaten>
         <gnd>https://d-nb.info/gnd/129625760</gnd>
     </akteur>
 
     <akteur id="herder">
         <name>Johann Gottfried Herder</name>
-        <sortiername>Herder, Johann Gottfried</sortiername>
         <lebensdaten>1744–1803</lebensdaten>
         <gnd>https://d-nb.info/gnd/118549553</gnd>
     </akteur>
 
+    <akteur id="borowski">
+        <name>Ludwig Ernst Borowski</name>
+        <lebensdaten>1740–1831</lebensdaten>
+        <gnd>https://d-nb.info/gnd/100853617</gnd>
+    </akteur>
+
+    <akteur id="goldsmith">
+        <name>Oliver Goldsmith</name>
+        <lebensdaten>1728‌–1774</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118696211</gnd>
+    </akteur>
+
+    <akteur id="baumgarten">
+        <name>Alexander Gottlieb Baumgarten</name>
+        <lebensdaten>1714–1762</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118507605</gnd>
+    </akteur>
+
+    <akteur id="schlegel-g">
+        <name>Gottlieb Schlegel</name>
+        <lebensdaten>1739–1810</lebensdaten>
+        <gnd>https://d-nb.info/gnd/117322083</gnd>
+    </akteur>
+
+    <akteur id="weitzler">
+        <name>Georg Christoph Weitzler</name>
+        <lebensdaten>1735–1775</lebensdaten>
+        <gnd>https://d-nb.info/gnd/100804047</gnd>
+    </akteur>
+
+    <akteur id="miller">
+        <name>Johann Peter Miller</name>
+        <lebensdaten>1725–1789</lebensdaten>
+        <gnd>https://d-nb.info/gnd/117577979</gnd>
+    </akteur>
+
     <akteur id="">
         <name></name>
-        <sortiername></sortiername>
         <lebensdaten></lebensdaten>
         <gnd></gnd>
     </akteur>
-	
-	
-	
-	
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
+
+    <akteur id="">
+        <name></name>
+        <lebensdaten></lebensdaten>
+        <gnd></gnd>
+    </akteur>
 </akteure>

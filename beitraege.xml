@@ -314,6 +314,8 @@
         <stueck jahr="1764" nr="17" von="65" bis="67" />
 		<akteur ref="herder">vgl. SWS IX, 93f.</akteur>
 		<werk ref="arnoldt-gedanken" kat="rezension" />
+		<ort ref="kgsb" />
+		<ort ref="leipzig" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="17" von="67" bis="68" />
@@ -324,4 +326,62 @@
         <kategorie ref="wechselkurse" />
         <datum when="1764-03-30"></datum>
     </beitrag>
+		
+	<beitrag>
+        <stueck jahr="1764" nr="18" von="69" />
+		<werk ref="schriften-verschiedenerverfasser" kat="rezension" />
+		<ort ref="danzig" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="18" von="69" bis="70" />
+		<akteur ref="borowski">vgl. ZH II, 235</akteur>
+		<werk ref="borowski-chinesischerweltweise" kat="rezension" />
+		<ort ref="leipzig" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="18" von="70" bis="71" />
+		<akteur ref="borowski">vgl. ZH II, 235</akteur>
+		<werk ref="baumgarten-hebraer" kat="rezension" />
+		<ort ref="halle" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="18" von="71" bis="72" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="18" von="72" />
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+		
+	<beitrag>
+        <stueck jahr="1764" nr="19" von="73" bis="74" />
+		<werk ref="hexe-vierwochen" kat="rezension" />
+		<ort ref="breslau" />
+		<ort ref="leipzig" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="19" von="74" />
+		<akteur ref="schlegel-g">vgl. ZH II, 251</akteur>
+		<werk ref="miller-anweisung" kat="rezension" />
+		<ort ref="helmstedt" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="19" von="74" bis="75" />
+		<werk ref="catalogue-nombreuse-collection" kat="anzeige" />
+		<ort ref="amsterdam" />
+		<ort ref="berlin" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="19" von="75" bis="76" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="19" von="76" />
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+	
+	
+	
 </beitraege>
