@@ -63,8 +63,7 @@
     <beitrag>
         <stueck jahr="1764" nr="1" von="2" bis="3" />
         <kategorie ref="panegyrik" />
-        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger
-            Akademie zu dessen Geburtstag</anmerkung>
+        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger Akademie zu dessen Geburtstag</anmerkung>
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="1" von="3" bis="4" />
@@ -210,7 +209,7 @@
     <beitrag>
         <stueck jahr="1764" nr="12" von="45" bis="47" />
         <kategorie ref="gedichte" />
-        <akteur ref="karsch" />
+		<werk ref="karsch-gedichte" kat="kommentar" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="12" von="48" />
@@ -222,23 +221,17 @@
         <kategorie ref="lotterie" />
     </beitrag>
 
+
     <beitrag>
         <stueck jahr="1764" nr="13" von="49" />
         <ort ref="berlin" />
-        <werk ref="nicolai-literaturbriefe" kat="rezension" />
-    </beitrag>
-    <beitrag>
-        <stueck jahr="1764" nr="13" von="49" />
-        <ort ref="berlin" />
-        <werk ref="nicolai-literaturbriefe" kat="rezension" />
+        <werk ref="nicolai-literaturbriefe-XVI" kat="rezension" />
+		<akteur ref="hamann">vgl. ZH II, 239</akteur>
     </beitrag>
 	<beitrag>
         <stueck jahr="1764" nr="13" von="50" bis="51" />
-        <kategorie ref="aufsatz" />
-        <kategorie ref="brief" />
+		<werk ref="nicolai-literaturbriefe-winckelmann" kat="auszug" />
         <titel>Leben und Wunder des Herrn Johann Winckelmanns</titel>
-        <ort ref="berlin" />
-        <akteur ref="winckelmann" />
     </beitrag>
     <beitrag>
         <stueck jahr="1764" nr="13" von="51" bis="52" />
@@ -257,6 +250,7 @@
 	
 	<beitrag>
         <stueck jahr="1764" nr="14" von="53" bis="54" />
+		<kategorie ref="kommentar" />
         <kategorie ref="gedicht" />
         <titel>Contrabit umbra diem, solique remorior axit</titel>
 		<ort ref="kgsb" />

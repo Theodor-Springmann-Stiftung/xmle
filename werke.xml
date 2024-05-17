@@ -68,9 +68,15 @@
         <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5"></url>
     </werk>
 
-    <werk id="nicolai-literaturbriefe">
+    <werk id="nicolai-literaturbriefe-XVI">
         <autor ref="nicolai" />
-        <zitation>Briefe die neueste Litteratur betreffend, hg. von Friedrich Nicolai (Berlin 1759–1765)</zitation>
+        <zitation>Briefe die neueste Litteratur betreffend, hg. von Friedrich Nicolai (Berlin 1759–1765), 16. Teil (1763).</zitation>
+        <url address="http://ds.ub.uni-bielefeld.de/viewer/toc/1921386/0/LOG_0000/">UB Bielefeld</url>
+    </werk>
+
+    <werk id="nicolai-literaturbriefe-winckelmann">
+        <autor ref="winckelmann" />
+        <zitation>Brief von Winckelmann an seinen Bruder, Rom, 8. Dezember 1762. In: Briefe die neueste Litteratur betreffend, hg. von Friedrich Nicolai (Berlin 1759–1765), 16. Teil, 265. Brief, S. 183–187.</zitation>
         <url address="http://ds.ub.uni-bielefeld.de/viewer/toc/1921386/0/LOG_0000/">UB Bielefeld</url>
     </werk>
 
