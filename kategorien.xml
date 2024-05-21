@@ -65,8 +65,12 @@
         <name>Gedicht</name>
     </kategorie>
 	
-	<kategorie id="brief">
-        <name>Brief</name>
+	<kategorie id="anzeige">
+        <name>Anzeige</name>
+    </kategorie>
+	
+	<kategorie id="todesanzeige">
+        <name>Todesanzeige</name>
     </kategorie>
 	
 </kategorien>

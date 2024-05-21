@@ -381,6 +381,68 @@
         <kategorie ref="avertissement" />
 		<kategorie ref="buecher" />
     </beitrag>
+		
+	<beitrag>
+        <stueck jahr="1764" nr="20" von="77" />
+		<akteur ref="funck-jd" kat="todesanzeige" />
+		<ort ref="kgsb" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="20" von="77" bis="78" />
+		<werk ref="krueger-schriften" kat="rezension" />
+		<ort ref="leipzig" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="20" von="78" />
+		<werk ref="camerer-betrachtungen" kat="rezension" />
+		<ort ref="hamburg" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="20" von="79" bis="80" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+		
+	<beitrag>
+        <stueck jahr="1764" nr="21" von="81" bis="82" />
+		<werk ref="pieper-markenrecht" kat="rezension" />
+		<akteur ref="funck-jd">vgl. ZH II, 246</akteur>
+		<ort ref="halle" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="21" von="82" bis="83" />
+		<werk ref="gazette-litteraire" kat="anzeige" />
+		<ort ref="paris" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="21" von="83" bis="84" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+        <stueck jahr="1764" nr="21" von="84" />
+        <kategorie ref="wechselkurse" />
+        <datum when="1764-04-13"></datum>
+    </beitrag>
+		
+	<beitrag>
+        <stueck jahr="1764" nr="22" von="85" bis="87" />
+		<stueck jahr="1764" nr="25" von="97" bis="98" />
+		<werk ref="michaelis-hebraer" kat="rezension" />
+		<akteur ref="hamann">vgl. ZH II, 251</akteur>
+		<ort ref="frankfurt" />
+		<ort ref="leipzig" />
+    </beitrag>
+	
+    <beitrag>
+        <stueck jahr="1764" nr="22" von="87" bis="88" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+        <stueck jahr="1764" nr="22" von="88" />
+        <kategorie ref="avertissement" />
+		<kategorie ref="lotterie" />
+    </beitrag>
+        <stueck jahr="1764" nr="22" von="88" />
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
 	
 	
 	

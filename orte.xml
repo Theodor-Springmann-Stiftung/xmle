@@ -81,14 +81,14 @@
         <geonames>https://www.geonames.org/2759794</geonames>
     </ort>
 
-    <ort id="">
-        <name></name>
-        <geonames></geonames>
+    <ort id="hamburg">
+        <name>Hamburg</name>
+        <geonames>https://www.geonames.org/2911298</geonames>
     </ort>
 
-    <ort id="">
-        <name></name>
-        <geonames></geonames>
+    <ort id="paris">
+        <name>Paris</name>
+        <geonames>https://www.geonames.org/2968815</geonames>
     </ort>
 
     <ort id="">

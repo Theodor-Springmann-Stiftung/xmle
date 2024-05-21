@@ -161,34 +161,34 @@
         <gnd>https://d-nb.info/gnd/117577979</gnd>
     </akteur>
 
-    <akteur id="">
-        <name></name>
-        <lebensdaten></lebensdaten>
-        <gnd></gnd>
+    <akteur id="funck-jd">
+        <name>Johann Daniel Funck</name>
+        <lebensdaten>1721–1764</lebensdaten>
+        <gnd>https://d-nb.info/gnd/1158902735</gnd>
     </akteur>
 
-    <akteur id="">
-        <name></name>
-        <lebensdaten></lebensdaten>
-        <gnd></gnd>
+    <akteur id="krueger-jc">
+        <name>Johann Christian Krüger</name>
+        <lebensdaten>1723–1750</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118778080</gnd>
     </akteur>
 
-    <akteur id="">
-        <name></name>
-        <lebensdaten></lebensdaten>
-        <gnd></gnd>
+    <akteur id="camerer-jf">
+        <name>Johann Friedrich Camerer</name>
+        <lebensdaten>1720–1792</lebensdaten>
+        <gnd>https://d-nb.info/gnd/104338709</gnd>
     </akteur>
 
-    <akteur id="">
-        <name></name>
-        <lebensdaten></lebensdaten>
-        <gnd></gnd>
+    <akteur id="pieper-fg">
+        <name>Friedrich Gottlieb Pieper</name>
+        <lebensdaten>Gest. 1768</lebensdaten>
+        <gnd>https://d-nb.info/gnd/104134852</gnd>
     </akteur>
 
-    <akteur id="">
-        <name></name>
-        <lebensdaten></lebensdaten>
-        <gnd></gnd>
+    <akteur id="michaelis">
+        <name>Johann David Michaelis</name>
+        <lebensdaten>1717–1791</lebensdaten>
+        <gnd>https://d-nb.info/gnd/118783726</gnd>
     </akteur>
 
     <akteur id="">
