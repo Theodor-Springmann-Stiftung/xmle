@@ -487,13 +487,13 @@
 	
 	<beitrag>
         <stueck jahr="1769" nr="9"/>
-        <werk ref="unger" kat="quelle" s="Bd. 2, 880–883"/>
+        <werk ref="unger" kat="provinienz" s="Bd. 2, 880–883"/>
 		<werk ref="sanseverino-biographie" kat="rezension" />
 		<akteur ref="hamann" />
     </beitrag>
 	<beitrag>
         <stueck jahr="1769" nr="11"/>
-        <werk ref="roth" kat="quelle" s="Bd. 3, 429–432"/>
+        <werk ref="roth" kat="provinienz" s="Bd. 3, 429–432"/>
 		<werk ref="herder-kritischewaelder" kat="rezension" />
 		<akteur ref="hamann" />
     </beitrag>

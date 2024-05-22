@@ -73,8 +73,8 @@
         <name>Todesanzeige</name>
     </kategorie>
 	
-	<kategorie id="quelle">
-        <name>Quelle</name>
+	<kategorie id="provinienz">
+        <name>Provinienz</name>
     </kategorie>
 	
 </kategorien>
