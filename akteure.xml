@@ -197,10 +197,10 @@
         <gnd>https://d-nb.info/gnd/11855137X</gnd>
     </akteur>
 
-    <akteur id="">
-        <name></name>
-        <lebensdaten></lebensdaten>
-        <gnd></gnd>
+    <akteur id="sanseverino">
+        <name>Giulio Roberto di Sanseverino</name>
+        <lebensdaten>1722 bis ca. 1800</lebensdaten>
+        <gnd>https://d-nb.info/gnd/100848354</gnd>
     </akteur>
 
     <akteur id="">

@@ -168,27 +168,25 @@
     </werk>
 
     <werk id="unger">
-        <autor ref="" />
-        <zitation></zitation>
-        <url address=""></url>
+        <zitation>Rudolf Unger: Hamann und die Aufklärung. Studien zur Vorgeschichte des romantischen Geistes im 18. Jahrhundert (2 Bde., Tübingen 1925, 2. Aufl.).</zitation>
+        <url address="https://archive.org/details/UngerRudolfHamannUndDieAufklarung2Bde19254ANiemeyer19681008ppOS">Internet Archive</url>
     </werk>
 
-    <werk id="">
-        <autor ref="" />
-        <zitation></zitation>
-        <url address=""></url>
+    <werk id="roth">
+        <zitation>Hamann’s Schriften. Hg. v. Friedrich Roth (8 Bde., 1821–1843)</zitation>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11720425-5">BSB München</url>
     </werk>
 
-    <werk id="">
-        <autor ref="" />
-        <zitation></zitation>
-        <url address=""></url>
+    <werk id="sanseverino-biographie">
+        <autor ref="sanseverino" />
+        <zitation>Italienische Biographie. Aus dem Französischen übersetzt [von Johann Georg Meusel]. Nebst einer Vorrede von Herrn Klotz. Erster Band (Frankfurt, Leipzig 1769).</zitation>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10070391-7">BSB München</url>
     </werk>
 
-    <werk id="">
-        <autor ref="" />
-        <zitation></zitation>
-        <url address=""></url>
+    <werk id="herder-kritischewaelder">
+        <autor ref="herder" />
+        <zitation>Kritische Wälder. Oder Betrachtungen, die Wissenschaft und Kunst des Schönen betreffend, nach Maasgabe neuerer Schriften (3 Bde., Riga: Hartknoch 1769).</zitation>
+        <url address="https://nbn-resolving.de/urn:nbn:de:kobv:b4-200905199299">Deutsches Textarchiv</url>
     </werk>
 
     <werk id="">

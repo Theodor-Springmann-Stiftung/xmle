@@ -486,10 +486,16 @@
 	
 	
 	<beitrag>
-        <stueck jahr="1764" nr="24"/>
-        <werk ref="unger" kat="quelle" s="434ff"/>
+        <stueck jahr="1769" nr="9"/>
+        <werk ref="unger" kat="quelle" s="Bd. 2, 880–883"/>
+		<werk ref="sanseverino-biographie" kat="rezension" />
 		<akteur ref="hamann" />
-		<titel></titel>
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1769" nr="11"/>
+        <werk ref="roth" kat="quelle" s="Bd. 3, 429–432"/>
+		<werk ref="herder-kritischewaelder" kat="rezension" />
+		<akteur ref="hamann" />
     </beitrag>
 	
 	

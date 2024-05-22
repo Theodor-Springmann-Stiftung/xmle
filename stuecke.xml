@@ -3078,7 +3078,15 @@
         <von>417</von>
         <bis>420</bis>
     </stueck>
-
+	
+    <stueck>
+        <nummer>9</nummer>
+        <datum when="1769-01-30" />
+    </stueck>
+    <stueck>
+        <nummer>11</nummer>
+        <datum when="1769-02-06" />
+    </stueck>
     <!-- 1771-1772 -->
     <stueck>
         <nummer>1</nummer>
@@ -4329,8 +4337,4 @@
         <bis>416</bis>
     </stueck>
 	
-    <stueck>
-        <nummer>34</nummer>
-        <datum when="1769-28-4" />
-    </stueck>
 </stuecke>
