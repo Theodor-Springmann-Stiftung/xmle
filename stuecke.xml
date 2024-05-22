@@ -4328,4 +4328,9 @@
         <von>413</von>
         <bis>416</bis>
     </stueck>
+	
+    <stueck>
+        <nummer>34</nummer>
+        <datum when="1769-28-4" />
+    </stueck>
 </stuecke>

@@ -478,9 +478,18 @@
         <kategorie ref="avertissement" />
 		<kategorie ref="lotterie" />
     </beitrag>
+	<beitrag>
         <stueck jahr="1764" nr="24" von="96" />
         <kategorie ref="avertissement" />
 		<kategorie ref="buecher" />
+    </beitrag>
+	
+	
+	<beitrag>
+        <stueck jahr="1764" nr="24"/>
+        <werk ref="unger" kat="quelle" s="434ff"/>
+		<akteur ref="hamann" />
+		<titel></titel>
     </beitrag>
 	
 	

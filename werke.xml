@@ -167,7 +167,7 @@
         <url address="http://nbn-resolving.de/urn:nbn:de:gbv:3:1-516649">ULB Halle</url>
     </werk>
 
-    <werk id="">
+    <werk id="unger">
         <autor ref="" />
         <zitation></zitation>
         <url address=""></url>
