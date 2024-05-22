@@ -191,10 +191,10 @@
         <gnd>https://d-nb.info/gnd/118783726</gnd>
     </akteur>
 
-    <akteur id="">
-        <name></name>
-        <lebensdaten></lebensdaten>
-        <gnd></gnd>
+    <akteur id="hippel">
+        <name>Theodor Gottlieb Hippel</name>
+        <lebensdaten>1741–1796</lebensdaten>
+        <gnd>https://d-nb.info/gnd/11855137X</gnd>
     </akteur>
 
     <akteur id="">

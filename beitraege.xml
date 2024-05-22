@@ -208,7 +208,7 @@
 
     <beitrag>
         <stueck jahr="1764" nr="12" von="45" bis="47" />
-        <kategorie ref="gedichte" />
+        <kategorie ref="gedicht" />
 		<werk ref="karsch-gedichte" kat="kommentar" />
     </beitrag>
     <beitrag>
@@ -417,6 +417,7 @@
         <stueck jahr="1764" nr="21" von="83" bis="84" />
         <kategorie ref="weltnachrichten" />
     </beitrag>
+	<beitrag>
         <stueck jahr="1764" nr="21" von="84" />
         <kategorie ref="wechselkurse" />
         <datum when="1764-04-13"></datum>
@@ -435,11 +436,49 @@
         <stueck jahr="1764" nr="22" von="87" bis="88" />
         <kategorie ref="weltnachrichten" />
     </beitrag>
+	<beitrag>
         <stueck jahr="1764" nr="22" von="88" />
         <kategorie ref="avertissement" />
 		<kategorie ref="lotterie" />
     </beitrag>
+	<beitrag>
         <stueck jahr="1764" nr="22" von="88" />
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+	
+	<beitrag>
+        <stueck jahr="1764" nr="23" von="89" bis="91" />
+		<kategorie ref="gedicht" />
+		<titel>Ein Fremdling auf Golgatha</titel>
+		<akteur ref="hippel" unsicher="true">vgl. Joseph Kohnen: Poetische Wüste. Zu den lyrischen Beiträgen in den ersten Jahren der Königsbergschen Gelehrten und Politischen Zeitungen (1764–1768). In: Das Wort. Germanistisches Jahrbuch Russland 2014/2015, 101f.</akteur>
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="23" von="91" bis="92" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="23" von="92" />
+        <kategorie ref="avertissement" />
+		<kategorie ref="buecher" />
+    </beitrag>
+	
+	<beitrag>
+        <stueck jahr="1764" nr="24" von="93" bis="94" />
+		<kategorie ref="gedicht" />
+		<titel>Ostergesang</titel>
+		<akteur ref="herder" />
+    </beitrag>
+    <beitrag>
+        <stueck jahr="1764" nr="24" von="95" bis="96" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
+	<beitrag>
+        <stueck jahr="1764" nr="24" von="96" />
+        <kategorie ref="avertissement" />
+		<kategorie ref="lotterie" />
+    </beitrag>
+        <stueck jahr="1764" nr="24" von="96" />
         <kategorie ref="avertissement" />
 		<kategorie ref="buecher" />
     </beitrag>
