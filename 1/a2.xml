@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<akteure xmlns="https://www.koenigsberger-zeitungen.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <akteur id="hamann">
+        <name>Johann Georg Hamann</name>
+        <lebensdaten>1730–1788</lebensdaten>
+        <gnd>https://d-nb.info/gnd/11854523X?ansicht=extended&typ=person</gnd>
+    </akteur>
+
+    <akteur id="kanter">
+        <name>Johann Jakob Kanter</name>
+        <lebensdaten>1738–1786</lebensdaten>
+        <gnd>https://d-nb.info/gnd/103759972</gnd>
+    </akteur>
+
+    <akteur id="lauson">
+        <name>Johann Friedrich Lauson</name>
+        <lebensdaten>1727–1783</lebensdaten>
+        <gnd>https://d-nb.info/gnd/101241054</gnd>
+    </akteur>
+
+</akteure>
