@@ -2,7 +2,7 @@
 <beitraege xmlns="https://www.koenigsberger-zeitungen.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-     <beitrag>
+    <beitrag>
         <stueck jahr="1764" nr="1" von="1" bis="2" />
         <kategorie ref="ineigenersache" />
         <incipit>„So sag ers ja den Klugen nicht…</incipit>
@@ -15,7 +15,8 @@
     <beitrag>
         <stueck jahr="1764" nr="1" nr="2" von="2" bis="3" />
         <kategorie ref="panegyrik" />
-        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger Akademie zu dessen Geburtstag</anmerkung>
+        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger
+            Akademie zu dessen Geburtstag</anmerkung>
     </beitrag>
 
     <beitrag>

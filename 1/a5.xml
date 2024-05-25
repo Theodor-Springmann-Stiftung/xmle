@@ -1,0 +1,16 @@
+<akteure xmlns="https://www.koenigsberger-zeitungen.de">
+<akteur id="otto-j">
+    <!-- Der volle und korrekt geschriebene Name der Person -->
+    <name>Jacob Otto</name>
+    <!-- Angaben zu Lebensdaten -->
+    <lebensdaten>Gest. 1788</lebensdaten>
+    <!-- GND-Nummer der Person als URL -- Recherche unter -->
+    <gnd>https://d-nb.info/gnd/103753641X</gnd>
+</akteur>
+
+<akteur id="lenov">
+    <name>Lenov</name>
+    <lebensdaten>Vorname und Lebensdaten unbekannt, 18. Jh.</lebensdaten>
+    <gnd>https://d-nb.info/gnd/138160384</gnd>
+</akteur>
+</akteure>

@@ -1,20 +1,21 @@
 <werke>
-<werk id="argens-beytrage">
-        <!-- Akteur bezieht sich auf eine Person oder Körperschaft, die mit einem Werk in Verbindung steht -->
+    <werk id="argens-beytrage">
+        <!-- Akteur bezieht sich auf eine Person oder Körperschaft, die mit einem Werk in Verbindung
+        steht -->
         <akteur ref="argens" />
         <zitation><![CDATA[ Hier kommt die volle & ungeordnete Zitation hin]]></zitation>
-        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10103463-7">BSB München</url>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10103463-7"target="_blank">BSB München</url>
     </werk>
 
     <werk id="home-critick">
         <akteur ref="home" />
-        <zitation>Elements of Criticism (3&#xA0;Bde., Edinburgh 1762). Übers. (von Johann Nicolaus Meinhard): Grundsätze der Critik, in drey Theilen, von Heinrich Home, aus dem Englischen übersetzt (3&#xA0;Bde., Leipzig: Dyckische Handlung 1763–1766).</zitation>
-        <url address="https://digi.ub.uni-heidelberg.de/diglit/kames1763bd1">UB Heidelberg</url>
+        <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
+        <url address="https://digi.ub.uni-heidelberg.de/diglit/kames1763bd1"target="_top">UB Heidelberg</url>
     </werk>
 
     <werk id="karsch-gedichte">
         <akteur ref="karsch" />
-        <zitation>Auserlesene Gedichte (Berlin: Winter 1764).</zitation>
-        <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5"></url>
+        <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
+        <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5"target="_blank"></url>
     </werk>
-    </werke>
+</werke>
