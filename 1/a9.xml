@@ -1,0 +1,17 @@
+<rdf:RDF>
+    <rdf:Description rdf:about="http://katalog.ub.uni-heidelberg.de/titel/67800392">
+        <dcterms:creator rdf:resource="http://d-nb.info/gnd/109054342" />
+        <dcterms:language>http://id.loc.gov/vocabulary/iso639-2/ger</dcterms:language>
+        <dc:title>Mach dich nicht so klein, du bist nicht so groß!</dc:title>
+        <rda:otherTitleInformation>der jüdische Humor als Weisheit, Witz und Waffe</rda:otherTitleInformation>
+        <bibo:edition>1. Auflage</bibo:edition>
+        <rda:placeOfPublication>München</rda:placeOfPublication>
+        <dc:publisher>Siedler</dc:publisher>
+        <dcterms:issued>März 2015</dcterms:issued>
+        <rda:publicationStatement>München: Siedler März 2015</rda:publicationStatement>
+        <isbd:P1053>267 Seiten</isbd:P1053>
+        <bibo:isbn>3-8275-0054-0</bibo:isbn>
+        <bibo:isbn>978-3-8275-0054-0</bibo:isbn>
+        <owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/BSZ-1613899556" />
+    </rdf:Description>
+</rdf:RDF>

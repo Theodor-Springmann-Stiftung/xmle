@@ -1,23 +1,27 @@
 <?xml version="1.0"?>
-<akteure xmlns="https://www.koenigsberger-zeitungen.de"
+<beitraege xmlns="https://www.koenigsberger-zeitungen.de"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <akteur id="hamann">
-        <name>Johann Georg Hamann</name>
-        <lebensdaten>1730–1788</lebensdaten>
-        <gnd>https://d-nb.info/gnd/11854523X?ansicht=extended&typ=person</gnd>
-    </akteur>
+    <beitrag>
+        <stueck jahr="1764" nr="1" von="1" bis="2" />
+        <kategorie ref="ineigenersache" />
+        <incipit>„So sag ers ja den Klugen nicht…</incipit>
+        <ort ref="kgsb" />
+        <akteur ref="hamann" />
+        <akteur ref="kanter" />
+        <anmerkung>Programmatisches Vorwort</anmerkung>
+    </beitrag>
 
-    <akteur id="kanter">
-        <name>Johann Jakob Kanter</name>
-        <lebensdaten>1738–1786</lebensdaten>
-        <gnd>http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5</gnd>
-    </akteur>
+    <beitrag>
+        <stueck jahr="1764" nr="1" nr="2" von="2" bis="3" />
+        <kategorie ref="panegyrik" />
+        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger
+            Akademie zu dessen Geburtstag</anmerkung>
+    </beitrag>
 
-    <akteur id="lauson">
-        <name>Johann Friedrich Lauson</name>
-        <lebensdaten>1727–1783</lebensdaten>
-        <gnd>https://d-nb.info/gnd/101241054</gnd>
-    </akteur>
+    <beitrag>
+        <stueck jahr="1764" nr="1" von="3" bis="4" />
+        <kategorie ref="weltnachrichten" />
+    </beitrag>
 
-</akteure>
+</beitraege>

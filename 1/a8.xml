@@ -5,13 +5,13 @@
     <akteur id="hamann">
         <name>Johann Georg Hamann</name>
         <lebensdaten>1730–1788</lebensdaten>
-        <gnd>https://d-nb.info/gnd/11854523X?ansicht=extended&typ=person</gnd>
+        <gnd>https://d-nb.info/gnd/11854523X?ansicht=extended&amp;typ=person</gnd>
     </akteur>
 
-    <akteur id="kanter">
+    <akteur id='kanter'>
         <name>Johann Jakob Kanter</name>
         <lebensdaten>1738–1786</lebensdaten>
-        <gnd>http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5</gnd     >
+        <gnd>http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5</GND>
     </akteur>
 
     <akteur id="lauson">

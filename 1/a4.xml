@@ -1,21 +1,17 @@
-<werke>
-    <werk id="argens-beytrage">
-        <!-- Akteur bezieht sich auf eine Person oder Körperschaft, die mit einem Werk in Verbindung
-        steht -->
-        <akteur ref="argens" />
-        <zitation><![CDATA[ Hier kommt die volle & ungeordnete Zitation hin]]></zitation>
-        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10103463-7"target="_blank">BSB München</url>
-    </werk>
+<?xml version="1.0"?>
+<akteure xmlns="https://www.koenigsberger-zeitungen.de">
+<akteur id="otto-j">
+    <!-- Der volle und korrekt geschriebene Name der Person -->
+    <name>Jacob Otto</name>
+    <!-- Angaben zu Lebensdaten -->
+    <lebensdaten>Gest. 1788</lebensdaten>
+    <!-- GND-Nummer der Person als URL -- Recherche unter -->
+    <gnd>https://d-nb.info/gnd/103753641X</gnd>
+</akteur>
 
-    <werk id="home-critick">
-        <akteur ref="home" />
-        <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
-        <url address="https://digi.ub.uni-heidelberg.de/diglit/kames1763bd1"target="_top">UB Heidelberg</url>
-    </werk>
-
-    <werk id="karsch-gedichte">
-        <akteur ref="karsch" />
-        <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
-        <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5"target="_blank"></url>
-    </werk>
-</werke>
+<akteur id="lenov">
+    <name>Lenov</name>
+    <lebensdaten>Vorname und Lebensdaten unbekannt, 18. Jh.</lebensdaten>
+    <gnd>https://d-nb.info/gnd/138160384</gnd>
+</akteur>
+</akteure>

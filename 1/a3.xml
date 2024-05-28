@@ -1,27 +1,21 @@
-<?xml version="1.0"?>
-<beitraege xmlns="https://www.koenigsberger-zeitungen.de"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<werke>
+    <werk id="argens-beytrage">
+        <!-- Akteur bezieht sich auf eine Person oder Körperschaft, die mit einem Werk in Verbindung
+        steht -->
+        <akteur ref="argens" />
+        <zitation><![CDATA[ Hier kommt die volle & ungeordnete Zitation hin]]></zitation>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10103463-7"target="_blank">BSB München</url>
+    </werk>
 
-    <beitrag>
-        <stueck jahr="1764" nr="1" von="1" bis="2" />
-        <kategorie ref="ineigenersache" />
-        <incipit>„So sag ers ja den Klugen nicht…</incipit>
-        <ort ref="kgsb" />
-        <akteur ref="hamann" />
-        <akteur ref="kanter" />
-        <anmerkung>Programmatisches Vorwort</anmerkung>
-    </beitrag>
+    <werk id="home-critick">
+        <akteur ref="home" /  >
+        <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
+        <url address="https://digi.ub.uni-heidelberg.de/diglit/kames1763bd1"target="_top">UB Heidelberg</url>
+    </werk>
 
-    <beitrag>
-        <stueck jahr="1764" nr="1" nr="2" von="2" bis="3" />
-        <kategorie ref="panegyrik" />
-        <anmerkung>Lobreden auf Friedrich II., anlässlich der Feierlichkeiten an der Königsberger
-            Akademie zu dessen Geburtstag</anmerkung>
-    </beitrag>
-
-    <beitrag>
-        <stueck jahr="1764" nr="1" von="3" bis="4" />
-        <kategorie ref="weltnachrichten" />
-    </beitrag>
-
-</beitraege>
+    <werk id="karsch-gedichte">
+        <akteur ref="karsch" />
+        <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
+        <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5"target="_blank"></url>
+    </werk>
+</werke>
