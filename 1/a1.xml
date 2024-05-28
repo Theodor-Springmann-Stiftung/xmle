@@ -4,7 +4,7 @@
 
     <akteur id="hamann">
         <name>Johann Georg Hamann</name>
-        <lebensdaten>1730–1788
+        <lebensdaten>1730–1788</lebensdaten>
         <gnd>https://d-nb.info/gnd/11854523X</gnd>
     </akteur>
 
@@ -15,7 +15,7 @@
     </akteur>
 
     <akteur id="lauson">
-        <name>Johann Friedrich Lauson
+        <name>Johann Friedrich Lauson</name>
         <lebensdaten>1727–1783</lebensdaten>
         <gnd>https://d-nb.info/gnd/101241054</gnd>
     </akteur>
