@@ -4,18 +4,18 @@
         steht -->
         <akteur ref="argens" />
         <zitation><![CDATA[ Hier kommt die volle & ungeordnete Zitation hin]]></zitation>
-        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10103463-7" target="_blank">BSB München</url>
+        <url address="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10103463-7"target="_blank">BSB München</url>
     </werk>
 
     <werk id="home-critick">
-        <akteur ref="home" />
+        <akteur ref="home" /  >
         <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
-        <url address="https://digi.ub.uni-heidelberg.de/diglit/kames1763bd1" target="_top">UB Heidelberg</url>
+        <url address="https://digi.ub.uni-heidelberg.de/diglit/kames1763bd1"target="_top">UB Heidelberg</url>
     </werk>
 
     <werk id="karsch-gedichte">
         <akteur ref="karsch" />
         <zitation><![CDATA[ Eine weitere volle & freie Zitation]]></zitation>
-        <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5" target="_blank"></url>
+        <url address="http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5"target="_blank"></url>
     </werk>
 </werke>
