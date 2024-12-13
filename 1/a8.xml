@@ -11,7 +11,7 @@
     <akteur id='kanter'>
         <name>Johann Jakob Kanter</name>
         <lebensdaten>1738–1786</lebensdaten>
-        <gnd>http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5</GND>
+        <GND>http://www.deutschestextarchiv.de/book/view/karsch_gedichte_1764?p=5</GND>
     </akteur>
 
     <akteur id="lauson">
