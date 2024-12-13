@@ -5,7 +5,7 @@
     <akteur id="hamann">
         <name>Johann Georg Hamann</name>
         <lebensdaten>1730–1788</lebensdaten>
-        <gnd>https://d-nb.info/gnd/11854523X?ansicht=extended&typ=person</gnd>
+        <gnd>https://d-nb.info/gnd/11854523X?ansicht=extended&amp;typ=person</gnd>
     </akteur>
 
     <akteur id="kanter">
